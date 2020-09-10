@@ -46,9 +46,9 @@
 			</form>
 		</div>
  
-   </div>
+   <!-- </div>
   <div class="card-footer "><a href="index.php" class="mb-2 float-right btn btn-primary">SignIn</a>
-  </div>
+  </div> -->
 
      </div>
  

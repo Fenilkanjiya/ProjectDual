@@ -1,0 +1,29 @@
+@font-face {
+    font-family: wobbletitle;
+    src: url(Quicksand-SemiBold.ttf);
+}
+
+
+/* wobble font */
+
+.wobblefont {
+    font-family: wobbletitle;
+}
+
+
+/* paragraph font */
+
+@font-face {
+    font-family: paragraphtitle;
+    src: url(Quicksand-Regular.ttf);
+}
+
+.paragraphfont {
+    font-family: paragraphtitle;
+}
+
+.wobblebanner {}
+
+.wobblebanner p {
+    font-family: paragraphtitle;
+}
