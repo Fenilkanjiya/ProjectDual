@@ -38,6 +38,10 @@
 					<label>Password</label>
 					<input type="password" class="form-control" name="password" />
 				</div>
+				<div class="form-group">
+					<label>Number</label>
+					<input type="number" class="form-control" name="number" />
+				</div>
 				<br />
 				<div class="form-group">
 					<button class="btn btn-primary form-control" name="register">Register</button>

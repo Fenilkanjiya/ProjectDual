@@ -47,7 +47,7 @@
     <button class="btn btn-success" type="submit">Go</button>
   </div>
 </div>
-  </div>
+ </div>
   <!-- search end -->
   <!-- crousel start -->
   <!-- <div class="container-fluid">
