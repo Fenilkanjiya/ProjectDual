@@ -18,7 +18,7 @@
   <nav class="navbar navbar-expand-sm bg-light"> 
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="#"><b>Wobble</b></a>
+        <a class="nav-link" href="#"><b>service center</b></a>
       </li>
    
      
@@ -34,7 +34,7 @@
       <div class="col-md-5"><img src="banner1.svg"  width="100%" alt="">
       </div>
       <div class="col-md-7">
-        <h2>Wecome to <span class="wobblefont">Wobble</span></h2>
+        <h2>Wecome to <span class="wobblefont">service center</span></h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur vitae voluptates aspernatur, distinctio laboriosam, quam sed quidem architecto alias, illum vero reprehenderit fugiat eum cupiditate? Esse velit dicta consequuntur earum.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur vitae voluptates aspernatur, distinctio laboriosam, quam sed quidem architecto alias, illum vero reprehenderit fugiat eum cupiditate? Esse velit dicta consequuntur earum.</p>
        
