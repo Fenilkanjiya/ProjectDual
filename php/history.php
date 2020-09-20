@@ -12,17 +12,18 @@
 
 <div class="container">
   <h2>HISTORY</h2>
-  <p>User all service information in this table:</p> 
+  <p>User all service information in this table</p> 
    <!-- startphp  -->
-<?php
+   <?php
    $conn = mysqli_connect("localhost","root","","service_project") or die("fail");
 
    $sql = "SELECT * FROM user_input JOIN member WHERE member.mem_id = user_input.user_name";
-   $result = mysqli_query($conn, $sql) or die("query unsucessful")
+   $result = mysqli_query($conn, $sql) or die("query unsucessful");
 
-   if (mysqli_num_rows($result) > 0) {
-?>
-        <table class="table">
+   if(mysqli_num_rows($result) > 0) {
+   ?>
+ 
+   <table class="table">
        <thead>
       <tr>
         <th>ID</th>
@@ -37,24 +38,24 @@
     </thead>
     <tbody>
     <?php
-    while($row = mysqli_fetch_assoc($result)) {
-    ?>      
+      while($row = mysqli_fetch_assoc($result)) {
+    ?>    
       <tr>
         <td><?php echo $row['mem_id'];?></td>
-        <td><?php echo $row['user_name']; ?></td>
-        <td><?php echo $row['catagory']; ?> </td>
-        <td><?php echo $row['v_model']; ?></td>
-        <td><?php echo $row['v_brand']; ?></td>
-        <td><?php echo $row['v_ragi_number']; ?></td>
-        <td><?php echo $row['service_date']; ?>-</td>
-        <td><?php echo $row['service_time']; ?></td>
+        <td><?php echo $row['user_name'];?></td>
+        <td><?php echo $row['catagory'];?> </td>
+        <td><?php echo $row['v_model'];?></td>
+        <td><?php echo $row['v_brand'];?></td>
+        <td><?php echo $row['v_ragi_number'];?></td>
+        <td><?php echo $row['service_date'];?>-</td>
+        <td><?php echo $row['service_time'];?></td>
       </tr>
-    <?php } ?>
+      <?php } ?>
     </tbody>
   </table>
-  <?php } ?>
-
+  <?php }
+  mysqli_close($conn)
+  ?>
 </div>
-
 </body>
 </html>
