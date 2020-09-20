@@ -14,10 +14,9 @@
 <nav class="navbar navbar-expand-sm bg-success"> 
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link"><h2><b>WELCOME ADMIN</b></h2></a>
+        <a class="nav-link" href="#"><h2><b>WELCOME ADMIN</b></h2></a>
       </li>
     </ul>
- 
 </nav>
   <!-- end navbar -->
 

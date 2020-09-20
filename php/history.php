@@ -15,12 +15,12 @@
   <p>User all service information in this table</p> 
    <!-- startphp  -->
    <?php
-   $conn = mysqli_connect("localhost","root","","service_project") or die("fail");
+      $conn = mysqli_connect("localhost","root","","service_project") or die("fail");
 
-   $sql = "SELECT * FROM user_input JOIN member WHERE member.mem_id = user_input.user_name";
-   $result = mysqli_query($conn, $sql) or die("query unsucessful");
+      $sql = "SELECT * FROM user_input";
+      $result = mysqli_query($conn, $sql) or die("query unsucessful");
 
-   if(mysqli_num_rows($result) > 0) {
+      if(mysqli_num_rows($result) > 0) {
    ?>
  
    <table class="table">
