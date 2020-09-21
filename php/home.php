@@ -40,7 +40,7 @@
         <ul class="list-unstyled components">
            
             <li class="active">
-                <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" >Ragistration</a>
+                <a href="../php/user_input.php"  >Ragistration</a>
             
                 
             </li>
@@ -48,11 +48,11 @@
                 <a href="#">About</a>
             </li>
             <li>
-                <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" >Pages</a>
+                <a href="#pageSubmenu"  >Pages</a>
                 
             </li>
             
-                <a href="#">Contact</a>
+                <a href="../php/history.php">history</a>
             </li>
         </ul>
     </nav>

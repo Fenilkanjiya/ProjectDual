@@ -23,7 +23,7 @@
 			}
 	
 			$conn = null;
-			header('location:index.php');
+			header('location:home.php');
 		}else{
 			echo "
 				<script>alert('Please fill up the required field!')</script>
