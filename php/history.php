@@ -17,7 +17,7 @@
    <?php
       $conn = mysqli_connect("localhost","root","","service_project") or die("fail");
 
-      $sql = "SELECT * FROM user_input";
+      $sql = "SELECT * FROM inputuser";
       $result = mysqli_query($conn, $sql) or die("query unsucessful");
 
       if(mysqli_num_rows($result) > 0) {
@@ -28,7 +28,7 @@
       <tr>
         <th>ID</th>
         <th>Name</th>
-        <th>Catagory</th>
+        <th>Category</th>
         <th>Model</th>
         <th>Brand</th>
         <th>Ragi.No</th>
@@ -43,7 +43,7 @@
       <tr>
         <td><?php echo $row['mem_id'];?></td>
         <td><?php echo $row['user_name'];?></td>
-        <td><?php echo $row['catagory'];?> </td>
+        <td><?php echo $row['category'];?> </td>
         <td><?php echo $row['v_model'];?></td>
         <td><?php echo $row['v_brand'];?></td>
         <td><?php echo $row['v_ragi_number'];?></td>
