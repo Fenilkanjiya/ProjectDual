@@ -7,6 +7,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="../css/stlye.css" >
 </head>
 <body>
 <!-- start navbar -->
@@ -20,6 +22,41 @@
 </nav>
   <!-- end navbar -->
 
+  <!-- sidebar start -->
+
+  
+  <div class="wrapper">
+  
+    <nav id="sidebar">
+        <div class="sidebar-header">
+            <h3>USER</h3>
+        </div>
+
+        <ul class="list-unstyled components">
+           
+            <li class="active">
+                <a href="../php/user_input.php"  >Ragistration</a>
+            
+                
+            </li>
+            <li>
+                <a href="#">About</a>
+            </li>
+            <li>
+                <a href="#pageSubmenu"  >Pages</a>
+                
+            </li>
+            
+                <a href="../php/history.php">history</a>
+            </li>
+        </ul>
+    </nav>
+
+</div>
+  
+<!-- sidebar end -->
+
+<img src="car-service-2191188_1920.jpg" class="img-fluid" alt="Responsive image">
 
 <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
