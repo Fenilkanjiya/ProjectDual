@@ -14,23 +14,12 @@
   <body>
 	
   
-      <!-- logout -->
-      <li class="nav-item float-right"><a class="nav-link" href  = "logout.php">Logout</a></li>
-     
-      <!-- logout end -->
+    
   
-  <!-- search start -->
-  <div class="container" >
-  <div class="input-group col-md-5 my-3" style="margin:0 auto">
-  <input type="text" class="form-control" placeholder="Search">
-  <div class="input-group-append">
-    <button class="btn btn-success" type="submit">Go</button>
-  </div>
-</div>
- </div>
-  <!-- search end -->
+  
   <!-- sidebar start -->
-
+  <div class="row">
+  <div class="col-4">
   
   <div class="wrapper">
   
@@ -53,15 +42,37 @@
                 <a href="#pageSubmenu"  >Pages</a>
                 
             </li>
+            <li>
             
                 <a href="../php/history.php">history</a>
             </li>
+            <li>
+           <a class="href  = "logout.php">Logout</a>
+          </li>
         </ul>
     </nav>
 
 </div>
-  
+  </div>
+  </div>
 <!-- sidebar end -->
+<!--search start -->
+ <div class="col-md-8 ml-md-auto">
+
+    <div class="row">
+          <div class="col-8">
+              <div class="container " style="float:right">
+                  <div class="input-group col-md-5 my-3" style="margin:0 auto">
+                      <input type="text" class="form-control" placeholder="Search">
+                          <div class="input-group-append">
+                              <button class="btn btn-success" type="submit">Go</button>
+                          </div>
+                  </div>
+              </div>
+          
+    </div>
+ </div>
+  <!-- search end-->
 
 
     <!-- Optional JavaScript -->
