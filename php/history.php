@@ -41,7 +41,7 @@
       while($row = mysqli_fetch_assoc($result)) {
     ?>    
       <tr>
-        <td><?php echo $row['user_id'];?></td>
+        <td><?php echo $row['mem_id'];?></td>
         <td><?php echo $row['user_name'];?></td>
         <td><?php echo $row['category'];?> </td>
         <td><?php echo $row['v_model'];?></td>
