@@ -17,7 +17,7 @@
    <?php
       $conn = mysqli_connect("localhost","root","","service_project") or die("fail");
 
-      $sql = "SELECT * FROM inputuser";
+      $sql = "SELECT * FROM inputuser LEFT JOIN member WHERE inputuser.mem_id = member.mem_id";
       $result = mysqli_query($conn, $sql) or die("query unsucessful");
 
       if(mysqli_num_rows($result) > 0) {
