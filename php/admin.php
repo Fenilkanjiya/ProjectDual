@@ -26,7 +26,6 @@
 
   
   <div class="wrapper">
-  
     <nav id="sidebar">
         <div class="sidebar-header">
             <h3>USER</h3>
@@ -45,8 +44,9 @@
             <li>
                 <a href="#pageSubmenu"  >Pages</a>
                 
-            </li>
             
+            </li>
+            <li>
                 <a href="../php/history.php">history</a>
             </li>
         </ul>
