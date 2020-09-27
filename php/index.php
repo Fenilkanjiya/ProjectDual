@@ -28,6 +28,7 @@
   </nav>
   <br>
   <!-- end navbar -->
+  <img src="../img/car-service-2191188_1920.jpg">
 
   <div class="container wobblebanner">
     <div class="row">

@@ -10,10 +10,13 @@
 
     <title>vehicle service</title>
     <link rel="stylesheet" type="text/css" href="../css/stlye.css" >
+    <link href="../css/all.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   </head>
   <body>
 	
   
+<<<<<<< HEAD
       <!-- logout -->
      
      
@@ -29,8 +32,14 @@
 </div>
 
   <!-- search end -->
+=======
+    
+  
+  
+>>>>>>> fe1b4c28018e3dfcfa7b6efe20d137c5c6e7e397
   <!-- sidebar start -->
-
+  <div class="row">
+  <div class="col-4">
   
   <div class="wrapper">
   
@@ -54,16 +63,45 @@
                 
             </li>
             <li>
+<<<<<<< HEAD
                <a href="../php/history.php">history</a>
 </li>
               <li><a href = "logout.php">Logout</a></li>
+=======
+            
+                <a href="../php/history.php">history</a>
+>>>>>>> fe1b4c28018e3dfcfa7b6efe20d137c5c6e7e397
             </li>
+            <li>
+           <a class="href  = "logout.php">Logout</a>
+          </li>
         </ul>
     </nav>
 
 </div>
-  
-<!-- sidebar end -->
+  </div>
+  </div>
+<!-- sidebar end -->     
+
+
+
+<!--search start -->
+ <div class="col-md-8 ml-md-auto">
+
+    <div class="row">
+          <div class="col-8">
+              <div class="container " style="float:right">
+                  <div class="input-group col-md-5 my-3" style="margin:0 auto">
+                      <input type="text" class="form-control" placeholder="Search">
+                          <div class="input-group-append">
+                              <button class="btn btn-success" type="submit"> </button>
+                          </div>
+                  </div>
+              </div>
+          
+    </div>
+ </div>
+  <!-- search end-->
 
 
     <!-- Optional JavaScript -->

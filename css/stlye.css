@@ -29,12 +29,14 @@
 
 /* sidebar  */
 
+
 .wrapper {
     display: block;
 }
 
 #sidebar {
     list-style-type: none;
+<<<<<<< HEAD
     margin: 0;
     padding: 0;
     width: 15%;
@@ -48,6 +50,21 @@ nav h3 {
     margin-top: 20px;
     text-align: center;
     color: rgb(51, 70, 175);
+=======
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+>>>>>>> fe1b4c28018e3dfcfa7b6efe20d137c5c6e7e397
+}
+nav h3 {
+
+    margin-top: 20px;
+    text-align: center;
+
 }
 
 li a {
@@ -66,4 +83,13 @@ li a.active {
 li a:hover:not(.active) {
     background-color: #555;
     color: white;
+<<<<<<< HEAD
 }
+=======
+  }
+   body{
+    background-image: url("../img/front_page.jpg");
+    
+    
+   }
+>>>>>>> fe1b4c28018e3dfcfa7b6efe20d137c5c6e7e397
