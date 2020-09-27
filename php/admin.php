@@ -8,55 +8,18 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-  <link rel="stylesheet" type="text/css" href="../css/stlye.css" >
+  <link rel="stylesheet" type="text/css" href="../css/admin.css" >
 </head>
 <body>
-<!-- start navbar -->
 
-<nav class="navbar navbar-expand-sm bg-success"> 
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="#"><h2><b>WELCOME ADMIN</b></h2></a>
-      </li>
-    </ul>
-</nav>
-  <!-- end navbar -->
-
-  <!-- sidebar start -->
-
-  
-  <div class="wrapper">
-    <nav id="sidebar">
-        <div class="sidebar-header">
-            <h3>USER</h3>
-        </div>
-
-        <ul class="list-unstyled components">
-           
-            <li class="active">
-                <a href="../php/user_input.php"  >Ragistration</a>
-            
-                
-            </li>
-            <li>
-                <a href="#">About</a>
-            </li>
-            <li>
-                <a href="#pageSubmenu"  >Pages</a>
-                
-            
-            </li>
-            <li>
-                <a href="../php/history.php">history</a>
-            </li>
-        </ul>
-    </nav>
-
+<!-- sidebar -->
+<div class="sidebar">
+  <h3 class="w3-bar-item">ADMIN</h3>
+  <a href="history.php" class="w3-bar-item w3-button">History</a>
+  <a href="#" class="w3-bar-item w3-button">Link 2</a>
+  <a href="#" class="w3-bar-item w3-button">Link 3</a>
 </div>
-  
-<!-- sidebar end -->
 
-<img src="car-service-2191188_1920.jpg" class="img-fluid" alt="Responsive image">
 
 <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
