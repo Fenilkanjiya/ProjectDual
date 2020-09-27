@@ -88,7 +88,7 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a  href="../php/user_input.php"> Ragistration</a>
+        <a  href="../php/user_input.php"> pakage</a>
       </li>
       <li class="nav-item active">
         <a href="#">pages</a>

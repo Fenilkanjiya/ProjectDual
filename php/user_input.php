@@ -9,6 +9,9 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
+<?php
+include "home.php";
+?>
 
 <div class="container mt-5">
    
@@ -44,10 +47,7 @@
 					<label>Ragistration number</label>
 					<input type="text" class="form-control" name="v_ragi_number" />
 				</div>
-                <div class="form-group">
-					<label>Discription</label>
-					<input type="text" class="form-control" name="discription" />
-				</div>
+               
                 <div class="form-group">
 					<label>Date</label>
 					<input type="Date" class="form-control" name="service_date" />
@@ -67,6 +67,11 @@
                     <label for="inputAddress">Address</label>
                     <input type="text" class="form-control" name="pickup_address" placeholder="Address">
                 </div>
+
+                <div class="form-group">
+					<label>Discription</label>
+					<input type="text" class="form-control" name="discription" />
+				</div>
 				<br/>
 				<div class="form-group">
 					<button class="btn btn-primary form-control" name="register">submit</button>
