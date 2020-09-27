@@ -10,6 +10,8 @@
 
     <title>Hello, world!</title>
     <link rel="stylesheet" type="text/css" href="../css/stlye.css" >
+    <link href="../css/all.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   </head>
   <body>
 	
@@ -55,7 +57,10 @@
 </div>
   </div>
   </div>
-<!-- sidebar end -->
+<!-- sidebar end -->     
+
+
+
 <!--search start -->
  <div class="col-md-8 ml-md-auto">
 
@@ -65,7 +70,7 @@
                   <div class="input-group col-md-5 my-3" style="margin:0 auto">
                       <input type="text" class="form-control" placeholder="Search">
                           <div class="input-group-append">
-                              <button class="btn btn-success" type="submit">Go</button>
+                              <button class="btn btn-success" type="submit"> </button>
                           </div>
                   </div>
               </div>
