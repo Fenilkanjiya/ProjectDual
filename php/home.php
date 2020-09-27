@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html>
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -8,26 +8,26 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>vehicle service</title>
     <link rel="stylesheet" type="text/css" href="../css/stlye.css" >
   </head>
   <body>
 	
   
       <!-- logout -->
-      <li class="nav-item float-right"><a class="nav-link" href  = "logout.php">Logout</a></li>
+     
      
       <!-- logout end -->
   
   <!-- search start -->
-  <div class="container" >
+
   <div class="input-group col-md-5 my-3" style="margin:0 auto">
   <input type="text" class="form-control" placeholder="Search">
   <div class="input-group-append">
     <button class="btn btn-success" type="submit">Go</button>
   </div>
 </div>
- </div>
+
   <!-- search end -->
   <!-- sidebar start -->
 
@@ -53,8 +53,10 @@
                 <a href="#pageSubmenu"  >Pages</a>
                 
             </li>
-            
-                <a href="../php/history.php">history</a>
+            <li>
+               <a href="../php/history.php">history</a>
+</li>
+              <li><a href = "logout.php">Logout</a></li>
             </li>
         </ul>
     </nav>

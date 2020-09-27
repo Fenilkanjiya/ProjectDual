@@ -37,22 +37,29 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 10%;
+    width: 15%;
     background-color: #f1f1f1;
     position: fixed;
     height: 100%;
     overflow: auto;
 }
 
+nav h3 {
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(51, 70, 175);
+}
+
 li a {
     display: block;
-    color: #000;
+    color: #000(248, 245, 245);
     padding: 8px 16px;
     text-decoration: none;
+    text-align: left;
 }
 
 li a.active {
-    background-color: #4CAF50;
+    background-color: #3e667e;
     color: white;
 }
 
