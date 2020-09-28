@@ -1,12 +1,22 @@
-.navbar a {
-    color: snow;
-    font-size: x-large;
+/* heading  */
+
+h2 {
+    color: #03DAC5;
+    background-color: #6200EE;
+    margin: auto;
+    padding: 10px;
     text-align: center;
+    margin-bottom: 3px;
 }
 
-.navbar-toggler {
-    padding: 20px;
-    margin: 20px;
-    margin-right: auto;
-    color: teal;
+nav {
+    background-color: #03DAC5;
+}
+
+.navbar-nav a {
+    color: black;
+}
+
+.button {
+    color: blanchedalmond;
 }
