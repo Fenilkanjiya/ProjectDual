@@ -11,14 +11,13 @@
   <link rel="stylesheet" type="text/css" href="../css/admin.css" >
 </head>
 <body>
+    <!-- navbar start -->
+    <nav class="navbar navbar-light" style="background-color: #6200EE;">
+  <a class="navbar-brand" href="#">WELCOME to Service Center</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-<!-- sidebar -->
-<div class="sidebar">
-  <h3 class="w3-bar-item">ADMIN</h3>
-  <a href="history.php" class="w3-bar-item w3-button">History</a>
-  <a href="#" class="w3-bar-item w3-button">Link 2</a>
-  <a href="#" class="w3-bar-item w3-button">Link 3</a>
-</div>
 
 
 <!-- Optional JavaScript -->

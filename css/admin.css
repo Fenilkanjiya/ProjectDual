@@ -1,22 +1,12 @@
-.sidebar {
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    background-color: rosybrown;
-    position: fixed;
-    height: 100%;
-}
-
-.sidebar a {
-    display: block;
-    color: white;
-    padding: 16px;
-    text-decoration: none;
-    font-size: 24px;
-}
-
-.sidebar h3 {
-    color: white;
-    font-size: 50px;
+.navbar a {
+    color: snow;
+    font-size: x-large;
     text-align: center;
+}
+
+.navbar-toggler {
+    padding: 20px;
+    margin: 20px;
+    margin-right: auto;
+    color: teal;
 }
