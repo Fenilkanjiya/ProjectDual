@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>service center</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -17,7 +17,7 @@
    <?php
       $conn = mysqli_connect("localhost","root","","service_project") or die("fail");
 
-      $sql = "SELECT * FROM inputuser LEFT JOIN member WHERE inputuser.mem_id = member.mem_id";
+      $sql = "SELECT * FROM inputuser";
       $result = mysqli_query($conn, $sql) or die("query unsucessful");
 
       if(mysqli_num_rows($result) > 0) {
@@ -56,6 +56,7 @@
   <?php }
   mysqli_close($conn)
   ?>
+
 </div>
 </body>
 </html>

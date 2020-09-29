@@ -92,7 +92,7 @@
       </li>
       <li class="nav-item active">
         <a href="#">pages</a>
-      </li>
+      </li> 
       
       <li class="nav-item active">
         <a  href="logout.php">Logout</a>
