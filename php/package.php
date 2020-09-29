@@ -12,19 +12,76 @@
     <link rel="stylesheet" type="text/css" href="../css/stlye.css" >
     <link href="../css/all.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet" type="text/css" href="../css/admin.css" >
   </head>
   <body>
 	
+  <h2>Packages</h2>
   
     
   
   
-  <div class="card" style="width: 18rem;">
+  <!-- <div class="card" style="width: 18rem;">
+  
+  <img class="card-img-top" src="../Project/ProjectDual/img/car-34923_1280.png" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Two wheeler</h5>
+    <p class="card-text">washing-200</p>
+    <a href="user_input.php" class="btn btn-primary">submit</a>
+  </div>
+</div><br/>
+
+<div class="card" style="width: 18rem;">
   <img class="card-img-top" src="" >
   <div class="card-body">
     <h5 class="card-title">Two wheeler</h5>
     <p class="card-text">washing-200</p>
     <a href="user_input.php" class="btn btn-primary">submit</a>
+  </div>
+</div> -->
+
+<div class="row">
+  <div class="col-sm-3">
+    <div class="card">
+    <div class="card-header">
+  <b>four wheeler</b>
+  </div>
+      <div class="card-body">
+        
+        
+        <p class="card-text">washing-200</p>
+        <p class="card-text">washing + shop oil-300</p>
+        <p class="card-text">washing-200</p>
+        <p class="card-text">washing-200</p> 
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-3">
+    <div class="card">
+    <div class="card-header">
+  <b>four wheeler</b>
+  </div>
+      <div class="card-body">
+       
+        <p class="card-text">washing-500</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-3">
+    <div class="card">
+    <div class="card-header">
+  <b>four wheeler</b>
+  </div>
+      <div class="card-body">
+     
+        <p class="card-text">washing-500</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
   </div>
 </div>
 
