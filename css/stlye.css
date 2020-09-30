@@ -26,65 +26,6 @@
     font-family: paragraphtitle;
 }
 
-
-/* sidebar  */
-
-.wrapper {
-    display: block;
-}
-
-#sidebar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 15%;
-    background-color: #f1f1f1;
-    position: fixed;
-    height: 100%;
-    overflow: auto;
-}
-
-nav h3 {
-    margin-top: 20px;
-    text-align: center;
-}
-
-li a {
-    display: block;
-    color: #000(248, 245, 245);
-    padding: 8px 16px;
-    text-decoration: none;
-    text-align: left;
-}
-
-li a.active {
-    background-color: #3e667e;
-    color: white;
-}
-
-li a:hover:not(.active) {
-    background-color: #555;
-    color: white;
-}
-
-h2{
-    margin: auto;
-    padding: 10px;
-    text-align: center;
-    background-color: blue;
-    color: cornsilk;
-    font-size: 50px;
-}
-
-div .card-header {
-
-    text-align: center;
-}
-div {
-    padding: 25px;
-    
-}
-.container{
-
-    border: 2px solid red;
+.cust-container {
+    width: 100%;
 }

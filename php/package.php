@@ -55,7 +55,7 @@
         <p class="card-text">washing + shop oil-300</p>
         <p class="card-text">washing-200</p>
         <p class="card-text">washing-200</p> 
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <a href="#" class="btn btn-primary">Select</a>
       </div>
     </div>
   </div>
@@ -67,7 +67,7 @@
       <div class="card-body">
        
         <p class="card-text">washing-500</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <a href="#" class="btn btn-primary">Select</a>
       </div>
     </div>
   </div>
@@ -79,7 +79,7 @@
       <div class="card-body">
      
         <p class="card-text">washing-500</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <a href="#" class="btn btn-primary">Select</a>
       </div>
     </div>
   </div>

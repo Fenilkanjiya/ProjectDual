@@ -11,40 +11,9 @@
     <title>service center!</title>
   </head>
   <body>
+  <div class="cust-container">
     <h2>! WELCOME to Service Center !</h2>
 
-    <!-- navbar -->
-    <!-- <nav class="navbar navbar-expand-lg ">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-  </style>
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="history.php">history</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Request</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Request</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Request</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Request</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#"></a>
-      </li>
-    </ul>
-  </div>
-</nav> -->
 
 <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
 
@@ -73,8 +42,6 @@
   </div>
 
 </nav>
-<div class="container">
-<p>jsdhgslrhg</p>
 </div>
 
     <!-- Optional JavaScript -->

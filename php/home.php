@@ -9,102 +9,43 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
     <title>vehicle service</title>
-    <link rel="stylesheet" type="text/css" href="../css/stlye.css" >
     <link href="../css/all.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/stlye.css" >
   </head>
   <body>
-	
-  
-    
-  
-  
-  <!-- sidebar start -->
-  <!-- <div class="row">
-  <div class="col-4">
-  
-  <div class="wrapper">
-  
-    <nav id="sidebar">
-        <div class="sidebar-header">
-            <h3>USER</h3>
-        </div>
-
-        <ul class="list-unstyled components">
-           
-            <li class="active">
-                <a href="../php/user_input.php"  >Ragistration</a>
-            
-                
-            </li>
-            <li>
-                <a href="#">About</a>
-            </li>
-            <li>
-                <a href="#pageSubmenu"  >Pages</a>
-                
-            </li>
-            <li>
-            
-                <a href="../php/history.php">history</a>
-            </li>
-            <li>
-           <a href = "logout.php">Logout</a>
-          </li>
-        </ul>
-    </nav>
-
-</div>
-  </div>
-  </div> -->
-<!-- sidebar end -->     
-
-
-
-<!--search start -->
- <!-- <div class="col-md-8 ml-md-auto">
-
-    <div class="row">
-          <div class="col-8">
-              <div class="container " style="float:right">
-                  <div class="input-group col-md-5 my-3" style="margin:0 auto">
-                      <input type="text" class="form-control" placeholder="Search">
-                          <div class="input-group-append">
-                              <button class="btn btn-success" type="submit"> </button>
-                          </div>
-                  </div>
-              </div>
-          
-    </div>
- </div> -->
-  <!-- search end-->
-
-  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
-  <a class="navbar-brand" href="#"><b> User</b></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	<div class="cust-container">
+  <!--navbar start  -->
+  <nav class="navbar navbar-expand-md bg-success navbar-dark fixed-top">
+  <a class="navbar-brand" href="#">Service</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
   </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a  href="../php/user_input.php"> pakage</a>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="../php/home.php">home</a>
       </li>
-      <li class="nav-item active">
-        <a href="#">pages</a>
-      </li> 
-      
-      <li class="nav-item active">
-        <a  href="logout.php">Logout</a>
+      <li class="nav-item">
+        <a class="nav-link" href="../php/registration.php">Ragistration</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../php/package.php">Package</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>    
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
+  </div>  
+  <form class="form-inline" action="/action_page.php">
+    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+    <button class="btn btn-success" type="submit">Search</button>
+  </form>
 </nav>
+<!-- end navbar-->
+<div style="background-image: url(../img/banner.png);">
 
+</div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
