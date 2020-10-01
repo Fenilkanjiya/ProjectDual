@@ -26,9 +26,81 @@
     font-family: paragraphtitle;
 }
 
+<<<<<<< HEAD
+
+/* sidebar  */
+
+.wrapper {
+    display: block;
+}
+
+#sidebar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+nav h3 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+li a {
+    display: block;
+    color: #000(248, 245, 245);
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: left;
+}
+
+li a.active {
+    background-color: #3e667e;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+h2{
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    background-color: blue;
+    color: cornsilk;
+    font-size: 50px;
+}
+
+div .card-header {
+
+    text-align: center;
+}
+div {
+    padding: 25px;
+    
+}
+
+
+.container {
+    display: grid;
+    height: 400px;
+    align-content: start;
+   
+   background-color: #2196F3;
+    padding: 10px;
+=======
 .cust-container {
     width: 100%;
 }
+<<<<<<< HEAD
+>>>>>>> 2e5e5929831404f849796c105929c95b38b90885
+=======
 
 #bannerid {
     height: 524px;
@@ -38,10 +110,14 @@
 #h2dis {
     margin-top: 34px;
 }
+<<<<<<< HEAD
+>>>>>>> df9cababbfc014e59210572b9f4766ccbfa52b74
+=======
 
 .contact {
     margin-top: 50px;
 }
+<<<<<<< HEAD
 
 
 /* Make Header Image Responsive */
@@ -71,3 +147,6 @@
         text-align: center;
     }
 }
+=======
+>>>>>>> 4409164425246fe78821d3252ec0803e08e94762
+>>>>>>> 9415759337c44935227a8d298c2278de60fdacfa
