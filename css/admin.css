@@ -1,9 +1,8 @@
 /* heading  */
 
 h2 {
-    color: #f0f7f6;
-    background-color: #6200EE;
-    margin: auto;
+    color: black;
+      margin: auto;
     padding: 10px;
     text-align: center;
     margin-bottom: 3px;
@@ -11,4 +10,9 @@ h2 {
 
 .cust-container {
     width: 100%;
+}
+
+nav{
+    background-color:  #03DAC6;
+    color: black;
 }
