@@ -27,7 +27,7 @@
         <a class="nav-link" href="../php/home.php">home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="../php/user_input.php">Ragistration</a>
+        <a class="nav-link" href="../php/user_input .php">Ragistration</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="../php/package.php">Package</a>
@@ -43,6 +43,19 @@
   </form>
 </nav>
 <!-- end navbar-->
+<!-- start contact us -->
+<div class= "container contact">
+  <h2 class= "text-center mb-4">Contact us</h2>
+  <div class="row">
+    <div class ="col-md-8">   
+      <form action="" method="POST">
+        <input type="text" class ="form-control" name="name" placeholder="Name"></br>
+        <input type="text" class ="form-control" name="subject" placeholder="Subject"></br>
+        <input type="email" class ="form-control" name="email" placeholder="Email"></br>
+        
+  </div>
+</div>
+<!-- End contact us -->
 
 
     <!-- Optional JavaScript -->
