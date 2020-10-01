@@ -26,6 +26,7 @@
     font-family: paragraphtitle;
 }
 
+<<<<<<< HEAD
 
 /* sidebar  */
 
@@ -93,3 +94,8 @@ div {
    
    background-color: #2196F3;
     padding: 10px;
+=======
+.cust-container {
+    width: 100%;
+}
+>>>>>>> 2e5e5929831404f849796c105929c95b38b90885
