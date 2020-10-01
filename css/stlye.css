@@ -117,4 +117,36 @@ div {
 .contact {
     margin-top: 50px;
 }
+<<<<<<< HEAD
+
+
+/* Make Header Image Responsive */
+
+.back-image {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 90vh;
+    border-radius: 0px;
+    margin-top: 74px;
+}
+
+
+/* Setting Margin for Welcome to OSMS */
+
+.mainHeading {
+    margin-top: 50px;
+}
+
+
+/* Setting Margin and Alignment for Welcome to OSM Mobile View */
+
+@media only screen and (max-width: 600px) {
+    .myclass {
+        margin-top: 350px;
+        text-align: center;
+    }
+}
+=======
 >>>>>>> 4409164425246fe78821d3252ec0803e08e94762
+>>>>>>> 9415759337c44935227a8d298c2278de60fdacfa
