@@ -73,8 +73,9 @@
   </div>
 
 </nav>
-<div class="container">
-<p>jsdhgslrhg</p>
+<div class="container-fluid">
+  <p></p>
+
 </div>
 
     <!-- Optional JavaScript -->
