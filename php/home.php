@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
     <title>vehicle service</title>
-    <link href="../css/all.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/all.css" >
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../css/home.css" >
   </head>
@@ -42,9 +42,10 @@
     <button class="btn btn-success" type="submit">Search</button>
   </form>
 </nav>
+</div>
 <!-- end navbar-->
 <!-- Start Header Jumbotron-->
-<header class="jumbotron back-image" style="background-image: url(background.jpg);">
+<header class="jumbotron back-image" style="background-image: url(img/background.jpg);">
     <div class="myclass mainHeading">
       <h1 class="text-uppercase text-danger font-weight-bold">Welcome to Service center</h1>
       <p class="font-italic">Customer's Happiness is our Aim</p>
