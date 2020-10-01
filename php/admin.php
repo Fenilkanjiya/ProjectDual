@@ -15,7 +15,7 @@
     <h2>! WELCOME to Service Center !</h2>
 
 
-<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+    <nav class="navbar navbar-expand-sm navbar-light fixed-top" style="background-color: #03DAC6;">
 
   <a class="navbar-brand" href="#"><b>Admin</b></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

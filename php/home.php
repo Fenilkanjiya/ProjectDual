@@ -16,7 +16,7 @@
   <body>
 	<div class="cust-container">
   <!--navbar start  -->
-  <nav class="navbar navbar-expand-md bg-success navbar-dark fixed-top">
+  <nav class="navbar navbar-expand-sm navbar-light fixed-top" style="background-color: #03DAC6;">
   <a class="navbar-brand" href="#">Service</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
@@ -27,7 +27,7 @@
         <a class="nav-link" href="../php/home.php">home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="../php/registration.php">Ragistration</a>
+        <a class="nav-link" href="../php/user_input.php">Ragistration</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="../php/package.php">Package</a>
@@ -43,9 +43,7 @@
   </form>
 </nav>
 <!-- end navbar-->
-<div style="background-image: url(../img/banner.png);">
 
-</div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
