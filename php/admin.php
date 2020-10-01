@@ -8,14 +8,46 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../css/admin.css" >
+    <link rel="stylesheet"  href="../css/all.css" >
     <title>service center!</title>
   </head>
   <body>
-  <div class="cust-container">
-    <h2>! WELCOME to Service Center !</h2>
+    <!-- <h2>! WELCOME to Service Center !</h2> -->
 
+    <!-- navbar -->
+    <!-- <nav class="navbar navbar-expand-lg ">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  </style>
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="history.php">history</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Request</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Request</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Request</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Request</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"></a>
+      </li>
+    </ul>
+  </div>
+</nav> -->
 
-    <nav class="navbar navbar-expand-sm navbar-light fixed-top" style="background-color: #03DAC6;">
+<!-- <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
 
   <a class="navbar-brand" href="#"><b>Admin</b></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,13 +74,82 @@
   </div>
 
 </nav>
-<<<<<<< HEAD
-<div class="container-fluid">
-  <p></p>
 
-=======
->>>>>>> 2e5e5929831404f849796c105929c95b38b90885
-</div>
+
+
+
+</div> -->
+<!-- Top Navbar -->
+<nav class="navbar navbar-dark fixed-top  flex-md-nowrap p-0 shadow";>
+  <h2>! WELCOME to Service Center !</h2>
+ </nav>
+ 
+ 
+ <!-- Side Bar -->
+ <div class="container-fluid mb-5 " style="margin-top:40px;">
+  <div class="row">
+   <nav class="col-sm-2 bg-light sidebar py-5 d-print-none">
+    <div class="sidebar-sticky">
+     <ul class="nav flex-column">
+      <li class="nav-item">
+       <a class="nav-link active" href="dashbord.php">
+       <i class="fas fa-users"></i>
+         Dashbord
+       </a> 
+      </li>
+      <li class="nav-item">
+       <a class="nav-link " href="work.php">
+        <i class="fab fa-accessible-icon"></i>
+        Work Order
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link " href="request.php">
+        <i class="fas fa-align-center"></i>
+        Request
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link " href="assest.php">
+        <i class="fas fa-align-center"></i>
+        Assets
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link " href="technicin.php">
+        <i class="fas fa-align-center"></i>
+        technician
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link " href="sellreport.php">
+        <i class="fas fa-align-center"></i>
+        Sell Report
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link " href="workreport.php">
+        <i class="fas fa-align-center"></i>
+        Work Report 
+       </a>
+      </li>
+       <li class="nav-item">
+       <a class="nav-link" href="Requesterchangepass.php">
+        <i class="fas fa-key"></i>
+        Change Password
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link" href="../logout.php">
+        <i class="fas fa-sign-out-alt"></i>
+        Logout
+       </a>
+      </li>
+     </ul>
+    </div>
+   </nav>
+<!-- End side bar -->
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

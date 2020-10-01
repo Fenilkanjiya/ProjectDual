@@ -34,6 +34,7 @@
     <div class="row">
     <div class="col-md-4">
       <img id="bannerid" src="../img/banner.png" class="img-fluid"></div>
+      <!-- <header class="jumbotron back-image" style="background-image: url(../img/banner.png);"> -->
       <div class="col-md-8">
         <h2 id="h2dis">Wecome to <span class="wobblefont">service center</span></h2>
         <p>It has become a recurring debate as to which kind of service centre to choose for car servicing; an around-the-corner garage or an authorised service centres. While both have their pros and cons, below are some of the reasons why you should leave authorised service stations right now and never go back again.</p>
