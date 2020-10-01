@@ -9,9 +9,6 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
-<?php
-include "home.php";
-?>
 
 <div class="container mt-5">
    
