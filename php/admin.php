@@ -149,6 +149,26 @@
     </div>
    </nav>
 <!-- End side bar -->
+<div class="col-sm-9 col-md-10">
+<div class="row text-center">
+  <div class="col-sm-4">
+    <div class="card text-white bg-danger mb-3">
+      <div class="card-header">request recived</div>
+      <div class="card-body"></div>
+      <h4 class="title">43</h4>
+      <a class="btn text-white" href="#">view</a>
+      </div>
+
+
+
+    </div>
+
+
+
+  </div>
+
+</div>
+  </div>
 
 
     <!-- Optional JavaScript -->
