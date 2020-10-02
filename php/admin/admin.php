@@ -80,16 +80,16 @@
 
 </div> -->
 <!-- Top Navbar -->
-<nav class="navbar navbar-dark fixed-top  flex-md-nowrap p-0 shadow";>
+<nav class="navbar navbar-dark fixed-top  flex-md-nowrap p-0 ";>
   <h2>! WELCOME to Service Center !</h2>
  </nav>
  
  
  <!-- Side Bar -->
- <div class="container-fluid mb-5 " style="margin-top:40px;">
+ <div class="container-fluid mb-5 " style="margin-top:40px ">
   <div class="row">
-   <nav class="col-sm-2 bg-light sidebar py-5 d-print-none">
-    <div class="sidebar-sticky">
+   <nav class="col-sm-2 sidebar sidebar2 py-5 d-print-none" style="background-color: #03DAC6";>
+    <div class="sidebar-sticky sidbar1">
      <ul class="nav flex-column">
       <li class="nav-item">
        <a class="nav-link active" href="dashbord.php">
@@ -149,7 +149,6 @@
     </div>
    </nav>
 <!-- End side bar -->
-
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
