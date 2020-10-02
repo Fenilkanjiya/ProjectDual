@@ -110,9 +110,9 @@
        </a>
       </li>
       <li class="nav-item">
-       <a class="nav-link " href="assest.php">
+       <a class="nav-link " href="contact_history.php">
         <i class="fas fa-align-center"></i>
-        Assets
+         User contact
        </a>
       </li>
       <li class="nav-item">
