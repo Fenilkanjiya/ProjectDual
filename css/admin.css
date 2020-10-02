@@ -1,11 +1,12 @@
 /* heading  */
 
-h2 {
+#admin_navbar {
     color: black;
     margin: auto;
     padding: 10px;
     text-align: center;
     margin-bottom: 3px;
+    background-color: #03dac6;
 }
 
 .cust-container {
@@ -13,7 +14,7 @@ h2 {
 }
 
 nav {
-    background-color: #03DAC6;
+    background-color: #03dac6;
     color: black;
 }
 
