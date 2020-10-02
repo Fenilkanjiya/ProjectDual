@@ -6,7 +6,7 @@
     padding: 10px;
     text-align: center;
     margin-bottom: 3px;
-    background-color: #03dac6;
+    background-color: hsl(174, 97%, 43%);
 }
 
 .cust-container {
@@ -24,4 +24,14 @@ nav {
 
 .sidebar2 {
     height: 100vh;
+}
+
+.heading_admin {
+    padding-left: 550px;
+    padding-top: 17px;
+    padding-bottom: 20px;
+}
+
+.admin_title {
+    padding-left: 33px;
 }
