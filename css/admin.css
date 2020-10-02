@@ -1,18 +1,37 @@
 /* heading  */
 
-h2 {
+#admin_navbar {
     color: black;
-      margin: auto;
+    margin: auto;
     padding: 10px;
     text-align: center;
     margin-bottom: 3px;
+    background-color: hsl(174, 97%, 43%);
 }
 
 .cust-container {
     width: 100%;
 }
 
-nav{
-    background-color:  #03DAC6;
+nav {
+    background-color: #03dac6;
     color: black;
+}
+
+.sidebar1 {
+    height: 100%;
+}
+
+.sidebar2 {
+    height: 100vh;
+}
+
+.heading_admin {
+    padding-left: 550px;
+    padding-top: 17px;
+    padding-bottom: 20px;
+}
+
+.admin_title {
+    padding-left: 33px;
 }
