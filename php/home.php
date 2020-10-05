@@ -1,4 +1,20 @@
+<!-- <?php
+session_start();
+if(isset($_SESSION['is_login'])){
+  $username = $_SESSION['username'];
+}else{
+  echo "<script> location.href='login.php'</script>";
+
+}
+?> -->
+
+
+
+
 <!doctype html>
+
+
+
 <html>
   <head>
     <!-- Required meta tags -->
@@ -37,13 +53,17 @@
       </li>    
     </ul>
   </div>  
-  <form class="form-inline" action="/action_page.php">
-    <input class="form-control mr-sm-2" type="text" placeholder="Search">
-    <button class="btn btn-success" type="submit">Search</button>
-  </form>
+  
 </nav>
 </div>
 <!-- end navbar-->
+<div>
+<form class="form-inline search_form" action="/action_page.php">
+    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+    <button class="btn btn-success" type="submit">Search</button>
+  </form>
+</div>
+
 <!-- Start Header Jumbotron-->
 <header class="jumbotron back-image" style="background-image: url(img/background.jpg);">
     <div class="myclass mainHeading">
@@ -117,7 +137,7 @@
           <!-- Start Footer 2nd Column -->
           <small> Designed by fenil & himanshu &copy; 2020.
           </small>
-          <small class="ml-2"><a href="#">Admin Login</a></small>
+          <small class="ml-2"><a href="admin_login.php">Admin Login</a></small>
         </div> <!-- End Footer 2nd Column -->
       </div> <!-- End Footer Row -->
     </div> <!-- End Footer Container -->

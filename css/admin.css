@@ -1,5 +1,5 @@
 /* heading  */
-
+/* 
 #admin_navbar {
     color: black;
     margin: auto;
@@ -16,10 +16,14 @@
 nav {
     background-color: #03dac6;
     color: black;
+    
 }
 
 .sidebar1 {
     height: 100%;
+}
+.f{
+    margin-top: 90px;
 }
 
 .sidebar2 {
@@ -34,4 +38,29 @@ nav {
 
 .admin_title {
     padding-left: 33px;
-}
+} */
+
+
+/* card start */
+ div .card{
+     color: cornsilk;
+     max-width: 18rem;
+     
+
+     
+ }
+
+
+ .btn{
+     color: cornsilk;
+ }
+  .r1{ text-align: center;
+
+ }
+ p{
+     background-color: black;
+     color: blanchedalmond;
+ }
+
+ 
+ /*card end  */

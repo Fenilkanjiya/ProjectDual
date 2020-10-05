@@ -14,8 +14,6 @@
   </head>
   <body>
     
-    
- <!--navbar start  -->
  <nav class="navbar navbar-expand-sm navbar-light fixed-top" style="background-color: #03DAC6;">
   <a class="navbar-brand" href="#">ADMIN</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -50,60 +48,6 @@
 </nav>
 </div>
 <!-- end navbar-->
-
-<!-- card start -->
-      
-        <div class="row text-center mx-5">
-          <div class="col-sm-4" style="margin-top: 6rem!important;">
-            <div class="card  bg-danger mb-3">
-                  <div class="card-header">request recived</div>
-                    <div class="card-body">
-                      <h4 class="title">43</h4>
-                      <a class="btn" href="#">view</a>
-                    </div>
-             </div>
-         </div>
-
-            <div class="col-sm-4" style="margin-top:6rem!important;">
-               <div class="card  bg-success mb-3">
-                  <div class="card-header">Assigned work</div>
-                    <div class="card-body">
-                      <h4 class="title">5</h4>
-                      <a class="btn" href="#">view</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-4" style="margin-top:6rem!important;">
-                <div class="card  bg-info mb-3">
-                  <div class="card-header">NO of technician</div>
-                    <div class="card-body">
-                      <h4 class="title">5</h4>
-                      <a class="btn" href="#">view</a>
-                    </div>
-                </div>
-            </div>
-<!-- card end -->
-            
-
-<!-- request table start -->
-         </div>
-         <div class=" r1 mx-5 mt-5 000">
-              <p class=" p-2">List of Requester</p> 
-
-
-
-
-
-            </div>
-
-      </div>
-    <!-- end reuqest table -->
-
-        
-
-
-</div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

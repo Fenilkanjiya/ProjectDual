@@ -87,6 +87,7 @@ div {
 }
 
 
+
 .container {
     display: grid;
     height: 400px;
@@ -94,13 +95,11 @@ div {
    
    background-color: #2196F3;
     padding: 10px;
-=======
+}
 .cust-container {
     width: 100%;
 }
-<<<<<<< HEAD
->>>>>>> 2e5e5929831404f849796c105929c95b38b90885
-=======
+
 
 #bannerid {
     height: 524px;
@@ -110,14 +109,12 @@ div {
 #h2dis {
     margin-top: 34px;
 }
-<<<<<<< HEAD
->>>>>>> df9cababbfc014e59210572b9f4766ccbfa52b74
-=======
+
 
 .contact {
     margin-top: 50px;
 }
-<<<<<<< HEAD
+
 
 
 /* Make Header Image Responsive */
@@ -147,6 +144,3 @@ div {
         text-align: center;
     }
 }
-=======
->>>>>>> 4409164425246fe78821d3252ec0803e08e94762
->>>>>>> 9415759337c44935227a8d298c2278de60fdacfa
