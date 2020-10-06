@@ -90,8 +90,45 @@
          </div>
          <div class=" r1 mx-5 mt-5 000">
               <p class=" p-2">List of Requester</p> 
+<?php
+   
+   $conn = mysqli_connect("localhost","root","","service_project") or die("fail");
+
+   $sql = "SELECT * FROM userinput";
+   $result = mysqli_query($conn, $sql) or die("query unsucessful");
+
+   if(mysqli_num_rows($result) > 0) {
+?>
 
 
+
+     <table class="table">
+       <thead>
+      <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Model</th>
+        <th>Discription</th>
+       
+      </tr>
+    </thead>
+    <tbody>
+    <?php
+      while($row = mysqli_fetch_assoc($result)) {
+    ?>    
+      <tr>
+        <td><?php echo $row['mem_id'];?></td>
+        <td><?php echo $row['user_name'];?></td>
+        <td><?php echo $row['v_model'];?> </td>
+        <td><?php echo $row['discription'];?></td>
+        
+      </tr>
+      <?php } ?>
+    </tbody>
+  </table>
+      <?php }
+      mysqli_close($conn)
+      ?>
 
 
 

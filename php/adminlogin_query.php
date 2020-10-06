@@ -13,7 +13,7 @@
 			$row = $query->rowCount();
 			$fetch = $query->fetch();
 			if($row > 0) {
-				$_SESSION['user'] = $fetch['admin_id'];
+				$_SESSION['user'] = $fetch['admin_id']; 
 				header("location: admin.php");
 			} else{
 				echo "
