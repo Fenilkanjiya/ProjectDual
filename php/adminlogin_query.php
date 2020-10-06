@@ -4,16 +4,16 @@
 	require_once 'conn.php';
 	
 	if(ISSET($_POST['login'])){
-		if($_POST['a_username'] = "admin" || $_POST['a_password'] = "admin"){
-			$ausername = $_POST['a_username'];
-			$apassword = $_POST['a_password'];
-			$sql = "SELECT * FROM `admin_login` WHERE `a_username`=? AND `a_password`=? ";
+		if($_POST['admin_name'] != "" || $_POST['admin_password'] != ""){
+			$admin_name = $_POST['admin_name'];
+			$admin_password = $_POST['admin_password'];
+			$sql = "SELECT * FROM `admin_login` WHERE `admin_name`=? AND `admin_password`=? ";
 			$query = $conn->prepare($sql);
-			$query->execute(array($ausername,$apassword));
+			$query->execute(array($admin_name,$admin_password));
 			$row = $query->rowCount();
 			$fetch = $query->fetch();
 			if($row > 0) {
-				$_SESSION['user'] = $fetch['a_login_id']; 
+				$_SESSION['user'] = $fetch['admin_id'];
 				header("location: admin.php");
 			} else{
 				echo "

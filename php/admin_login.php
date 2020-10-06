@@ -24,12 +24,12 @@
 				<form action="adminlogin_query.php" method="POST">
 						<div class="form-group">
 							<label for="username">Username:</label>
-							<input type="text" class="form-control " id="email" placeholder="Enter user ID"
+							<input type="text" class="form-control " name="admin_name" placeholder="Enter user ID"
 								name="ausername">
 						</div>
 						<div class="form-group">
 							<label for="pwd">Password:</label>
-							<input type="password" class="form-control " id="pwd" placeholder="Enter password"
+							<input type="password" class="form-control " name="admin_password" placeholder="Enter password"
 								name="apassword">
 						</div>
 
@@ -40,9 +40,7 @@
 					</form>
 
 				</div>
-				<div class="card-footer">
-					<a href="registration.php" class="float-right btn btn-primary">SignUp</a>
-				</div>
+				
 			</div>
 		</div>
 
