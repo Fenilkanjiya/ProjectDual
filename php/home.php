@@ -49,7 +49,7 @@ if(isset($_SESSION['is_login'])){
         <a class="nav-link" href="../php/package.php">Package</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="../php/user_change_pass.php">Change Password</a>
       </li>    
     </ul>
   </div>  
