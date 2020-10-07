@@ -11,28 +11,7 @@
 <body>
 <div class="container">
 <table class="table">
-       <thead>
-      <tr>
-        <th>ID</th>
-        <th>Name</th>
-        <th>Subject</th>
-        <th>Email</th>
-        <th>Message</th>
-      </tr>
-    </thead>
-    <tbody>
-      
-      <tr>
-        <td>1</td>
-        <td>fenil</td>
-        <td>loeo</td>
-        <td>fsdfsdfb</td>
-        <td>s</td>
-      </tr>
-
-    </tbody>
-  </table>
-</div>
+     
 
  <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
