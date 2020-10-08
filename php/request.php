@@ -48,8 +48,7 @@
                    echo '<input type="hidden" name="service_date" value='.$row["service_date"].'>';
                    echo '<input type="hidden" name="service_time" value='.$row["service_time"].'>';
                    echo '<input type="hidden" name="pickup_address" value='.$row["pickup_address"].'>';
-                   echo '<input type="submit" class="btn btn-danger" value="View" name="view">';
-                   echo '<input type="submit" class="btn btn-secondary" value="Colse" name="close">';
+                   echo '<input type="submit" class="btn btn-success" value="View" name="view">'; 
                    echo '</form>';
                   ?>
                     
@@ -57,9 +56,10 @@
             </div>
            <?php }  ?>
           </div>
-            <?php } ?>
+            <?php } ?>  
         </div>
        
+  
    <div class="col-md-6 mt-5 ">
    <div class="card shadow">
    <div class="card-header"><h3 style="text-align: center;">welcome to service center</h3></div>
@@ -110,7 +110,7 @@
  
                  <div class="form-group">
            <label>Discription</label>
-           <input type="text" class="form-control" name="discription" value="<?php if(isset($_REQUEST['discription'])) echo $_REQUEST['discription']; ?> "/>
+           <input type="text " class="form-control" name="discription" value="<?php if(isset($_REQUEST['discription'])) echo $_REQUEST['discription']; ?> "/>
          </div>
          <br/>
          <div class="form-group">
