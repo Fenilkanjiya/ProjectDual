@@ -102,12 +102,7 @@
            <input type="text" class="form-control" name="service_time" value="<?php if(isset($_REQUEST['service_time'])) echo $_REQUEST['service_time']; ?> "/>
          </div>
  
-                 <div>
-                       Dilevry Type :   
-               <input type="radio" name="v_pickup" <?php if (isset($Dilevry_Type) && $gender=="Pickup") echo "checked";?> value="Picup">Pickup
-             <input type="radio" name="v_drop" <?php if (isset($Dilevry_Type) && $gender=="Drop") echo "checked";?> value="Drop">Drop
- 
-           </div><br>
+                <br>
                  <div class="form-group">
                      <label for="inputAddress">Address</label>
                      <input type="text" class="form-control" name="pickup_address" value="<?php if(isset($_REQUEST['pickup_address'])) echo $_REQUEST['pickup_address']; ?> ">
@@ -119,7 +114,7 @@
          </div>
          <br/>
          <div class="form-group">
-           <button class="btn btn-primary form-control" name="register">submit</button>
+           <button class="btn btn-primary form-control" name="submit">submit</button>
          </div>
        </form>
      </div>
