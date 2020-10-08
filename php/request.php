@@ -18,62 +18,88 @@
     <div class="row">
       <div class="col-sm-4">
         <div class="card mt-5 mx-5">
-          <div class="card-header">Member Id </div>
+        <?php
+          
+           $conn = mysqli_connect("localhost","root","","service_project") or die("fail");
+     
+           $sql = "SELECT * FROM inputuser";
+           $result = mysqli_query($conn, $sql) or die("query unsucessful");
+     
+           if(mysqli_num_rows($result) > 0) {
+      
+            while($row = mysqli_fetch_assoc($result)) {
+        ?>
+          <div class="card-header"> Member ID : <?php echo $row['mem_id']; ?> </div>
             <div class="card-body">
-               <p class="card-text">Name</p>  
-               <p class="card-text">Category</p>
-               <p class="card-text">Discription</p>
+               <p class="card-text"> Category : <?php echo $row['category']; ?></p>  
+               <p class="card-text"> Model : <?php echo $row['v_model']; ?></p>
+               <p class="card-text"> Discription : <?php echo $row['discription']; ?></p>
 
                   <div class="float-right">
-                    <input type="submit" class="btn btn-danger" value="View">
-                    <input type="submit" class="btn btn-secondary" value="Colse">
+                  <?php
+                   echo '<form action = "" method= "POST">';
+                   echo '<input type="hidden" name="id" value='.$row["mem_id"].'>';
+                   echo '<input type="hidden" name="name" value='.$row["user_name"].'>';
+                   echo '<input type="hidden" name="category" value='.$row["category"].'>';
+                   echo '<input type="hidden" name="v_model" value='.$row["v_model"].'>';
+                   echo '<input type="hidden" name="v_brand" value='.$row["v_brand"].'>';
+                   echo '<input type="hidden" name="v_ragi_number" value='.$row["v_ragi_number"].'>';
+                   echo '<input type="hidden" name="discription" value='.$row["discription"].'>';
+                   echo '<input type="hidden" name="service_date" value='.$row["service_date"].'>';
+                   echo '<input type="hidden" name="service_time" value='.$row["service_time"].'>';
+                   echo '<input type="hidden" name="pickup_address" value='.$row["pickup_address"].'>';
+                   echo '<input type="submit" class="btn btn-danger" value="View" name="view">';
+                   echo '<input type="submit" class="btn btn-secondary" value="Colse" name="close">';
+                   echo '</form>';
+                  ?>
+                    
                  </div>
             </div>
+           <?php }  ?>
           </div>
+            <?php } ?>
         </div>
-
-        
-   
+       
    <div class="col-md-6 mt-5 ">
    <div class="card shadow">
    <div class="card-header"><h3 style="text-align: center;">welcome to service center</h3></div>
    <div class="card-body">
    <div class="container  mt-3">
    <form action="user_conn.php" method="POST">	
-         <h4>Input here....</h4>
+         <h4>Assign work...</h4>
          
          <div class="form-group">
-           <label for="firstname">Name</label>
-           <input type="text" class="form-control" name="user_name" />
+           <label>Request Id</label>
+           <input type="text" class="form-control" name="mem_id" value="<?php if(isset($_REQUEST['id'])) echo $_REQUEST['id']; ?> "/>
          </div>
          <div class="form-group">
-                  <label for="inputState">Category</label>
-                     <select id="inputState" class="form-control" name="category">
-                          <option selected>Two wheeler</option>
-                          <option selected>Four wheeler</option>
-                          <option selected>Six wheeler</option>
-                     </select>
-                 </div>
+           <label for="firstname">Name</label>
+           <input type="text" class="form-control" name="user_name" value="<?php if(isset($_REQUEST['name'])) echo $_REQUEST['name']; ?> "/>
+         </div>
+         <div class="form-group">
+           <label>Category</label>
+           <input type="text" class="form-control" name="category" value="<?php if(isset($_REQUEST['category'])) echo $_REQUEST['category']; ?> "/>
+         </div>
          <div class="form-group">
            <label>Vehicle Model</label>
-           <input type="text" class="form-control" name="v_model" />
+           <input type="text" class="form-control" name="v_model" value="<?php if(isset($_REQUEST['v_model'])) echo $_REQUEST['v_model']; ?> "/>
          </div>
          <div class="form-group">
            <label>Vehical Brand</label>
-           <input type="text" class="form-control" name="v_brand" />
+           <input type="text" class="form-control" name="v_brand" value="<?php if(isset($_REQUEST['v_brand'])) echo $_REQUEST['v_brand']; ?> "/>
          </div>
          <div class="form-group">
            <label>Ragistration number</label>
-           <input type="text" class="form-control" name="v_ragi_number" />
+           <input type="text" class="form-control" name="v_ragi_number" value="<?php if(isset($_REQUEST['v_ragi_number'])) echo $_REQUEST['v_ragi_number']; ?> "/>
          </div>
                 
                  <div class="form-group">
            <label>Date</label>
-           <input type="Date" class="form-control" name="service_date" />
+           <input type="text" class="form-control" name="service_date" value="<?php if(isset($_REQUEST['service_date'])) echo $_REQUEST['service_date']; ?> "/>
          </div>
                  <div class="form-group">
            <label>Time</label>
-           <input type="Time" class="form-control" name="service_time" />
+           <input type="text" class="form-control" name="service_time" value="<?php if(isset($_REQUEST['service_time'])) echo $_REQUEST['service_time']; ?> "/>
          </div>
  
                  <div>
@@ -84,12 +110,12 @@
            </div><br>
                  <div class="form-group">
                      <label for="inputAddress">Address</label>
-                     <input type="text" class="form-control" name="pickup_address" placeholder="Address">
+                     <input type="text" class="form-control" name="pickup_address" value="<?php if(isset($_REQUEST['pickup_address'])) echo $_REQUEST['pickup_address']; ?> ">
                  </div>
  
                  <div class="form-group">
            <label>Discription</label>
-           <input type="text" class="form-control" name="discription" />
+           <input type="text" class="form-control" name="discription" value="<?php if(isset($_REQUEST['discription'])) echo $_REQUEST['discription']; ?> "/>
          </div>
          <br/>
          <div class="form-group">
@@ -99,6 +125,9 @@
      </div>
       </div>
  </div>    
+  <?php
+  mysqli_close($conn)
+  ?> 
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

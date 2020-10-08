@@ -4,12 +4,12 @@
 	require_once 'conn.php';
 	
 	if(ISSET($_POST['login'])){
-		if($_POST['username'] != "" || $_POST['password'] != ""){
+		if($_POST['username'] != "" || $_POST['u_password'] != ""){
 			$username = $_POST['username'];
-			$password = $_POST['password'];
-			$sql = "SELECT * FROM `member` WHERE `username`=? AND `password`=? ";
+			$u_password = $_POST['u_password'];
+			$sql = "SELECT * FROM `member` WHERE `username`=? AND `u_password`=? ";
 			$query = $conn->prepare($sql);
-			$query->execute(array($username,$password));
+			$query->execute(array($username,$u_password));
 			$row = $query->rowCount();
 			$fetch = $query->fetch();
 			if($row > 0) {
