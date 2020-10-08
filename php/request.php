@@ -65,54 +65,58 @@
    <div class="card-header"><h3 style="text-align: center;">welcome to service center</h3></div>
    <div class="card-body">
    <div class="container  mt-3">
-   <form action="user_conn.php" method="POST">	
+   <form action="admin_main_history.php" method="POST">	
          <h4>Assign work...</h4>
          
          <div class="form-group">
            <label>Request Id</label>
-           <input type="text" class="form-control" name="mem_id" value="<?php if(isset($_REQUEST['id'])) echo $_REQUEST['id']; ?> "/>
+           <input type="text" class="form-control" name="a_request_id" value="<?php if(isset($_REQUEST['id'])) echo $_REQUEST['id']; ?> "/>
          </div>
          <div class="form-group">
            <label for="firstname">Name</label>
-           <input type="text" class="form-control" name="user_name" value="<?php if(isset($_REQUEST['name'])) echo $_REQUEST['name']; ?> "/>
+           <input type="text" class="form-control" name="a_name" value="<?php if(isset($_REQUEST['name'])) echo $_REQUEST['name']; ?> "/>
          </div>
          <div class="form-group">
            <label>Category</label>
-           <input type="text" class="form-control" name="category" value="<?php if(isset($_REQUEST['category'])) echo $_REQUEST['category']; ?> "/>
+           <input type="text" class="form-control" name="a_category" value="<?php if(isset($_REQUEST['category'])) echo $_REQUEST['category']; ?> "/>
          </div>
          <div class="form-group">
            <label>Vehicle Model</label>
-           <input type="text" class="form-control" name="v_model" value="<?php if(isset($_REQUEST['v_model'])) echo $_REQUEST['v_model']; ?> "/>
+           <input type="text" class="form-control" name="a_v_model" value="<?php if(isset($_REQUEST['v_model'])) echo $_REQUEST['v_model']; ?> "/>
          </div>
          <div class="form-group">
            <label>Vehical Brand</label>
-           <input type="text" class="form-control" name="v_brand" value="<?php if(isset($_REQUEST['v_brand'])) echo $_REQUEST['v_brand']; ?> "/>
+           <input type="text" class="form-control" name="a_v_brand" value="<?php if(isset($_REQUEST['v_brand'])) echo $_REQUEST['v_brand']; ?> "/>
          </div>
          <div class="form-group">
            <label>Ragistration number</label>
-           <input type="text" class="form-control" name="v_ragi_number" value="<?php if(isset($_REQUEST['v_ragi_number'])) echo $_REQUEST['v_ragi_number']; ?> "/>
+           <input type="text" class="form-control" name="a_v_ragi_number" value="<?php if(isset($_REQUEST['v_ragi_number'])) echo $_REQUEST['v_ragi_number']; ?> "/>
          </div>
                 
                  <div class="form-group">
            <label>Date</label>
-           <input type="text" class="form-control" name="service_date" value="<?php if(isset($_REQUEST['service_date'])) echo $_REQUEST['service_date']; ?> "/>
+           <input type="text" class="form-control" name="a_date" value="<?php if(isset($_REQUEST['service_date'])) echo $_REQUEST['service_date']; ?> "/>
          </div>
                  <div class="form-group">
            <label>Time</label>
-           <input type="text" class="form-control" name="service_time" value="<?php if(isset($_REQUEST['service_time'])) echo $_REQUEST['service_time']; ?> "/>
+           <input type="text" class="form-control" name="a_time" value="<?php if(isset($_REQUEST['service_time'])) echo $_REQUEST['service_time']; ?> "/>
          </div>
  
                 <br>
                  <div class="form-group">
                      <label for="inputAddress">Address</label>
-                     <input type="text" class="form-control" name="pickup_address" value="<?php if(isset($_REQUEST['pickup_address'])) echo $_REQUEST['pickup_address']; ?> ">
+                     <input type="text" class="form-control" name="a_address" value="<?php if(isset($_REQUEST['pickup_address'])) echo $_REQUEST['pickup_address']; ?> ">
                  </div>
  
                  <div class="form-group">
            <label>Discription</label>
-           <input type="text " class="form-control" name="discription" value="<?php if(isset($_REQUEST['discription'])) echo $_REQUEST['discription']; ?> "/>
+           <input type="text " class="form-control" name="a_discription" value="<?php if(isset($_REQUEST['discription'])) echo $_REQUEST['discription']; ?> "/>
          </div>
          <br/>
+         <div class="form-group">
+                     <label for="inputAddress">Price</label>
+                     <input type="text" class="form-control" name="a_price">
+                 </div>
          <div class="form-group">
            <button class="btn btn-primary form-control" name="submit">submit</button>
          </div>

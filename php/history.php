@@ -17,7 +17,7 @@
    <?php
       $conn = mysqli_connect("localhost","root","","service_project") or die("fail");
 
-      $sql = "SELECT * FROM inputuser";
+      $sql = "SELECT * FROM history";
       $result = mysqli_query($conn, $sql) or die("query unsucessful");
 
       if(mysqli_num_rows($result) > 0) {
@@ -34,6 +34,7 @@
         <th>Ragi.No</th>
         <th>Date</th>
         <th>Time</th>
+        <th>Price</th>
       </tr>
     </thead>
     <tbody>
@@ -41,14 +42,15 @@
       while($row = mysqli_fetch_assoc($result)) {
     ?>    
       <tr>
-        <td><?php echo $row['mem_id'];?></td>
-        <td><?php echo $row['user_name'];?></td>
-        <td><?php echo $row['category'];?> </td>
-        <td><?php echo $row['v_model'];?></td>
-        <td><?php echo $row['v_brand'];?></td>
-        <td><?php echo $row['v_ragi_number'];?></td>
-        <td><?php echo $row['service_date'];?>-</td>
-        <td><?php echo $row['service_time'];?></td>
+        <td><?php echo $row['a_request_id'];?></td>
+        <td><?php echo $row['a_name'];?></td>
+        <td><?php echo $row['a_category'];?> </td>
+        <td><?php echo $row['a_v_model'];?></td>
+        <td><?php echo $row['a_v_brand'];?></td>
+        <td><?php echo $row['a_v_ragi_number'];?></td>
+        <td><?php echo $row['a_date'];?>-</td>
+        <td><?php echo $row['a_time'];?></td>
+        <td><?php echo $row['a_price'];?></td>
       </tr>
       <?php } ?>
     </tbody>
