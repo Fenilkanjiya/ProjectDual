@@ -15,7 +15,6 @@ include('header.php');
 <body>
 <div class="container">
 <table class="table">
-<<<<<<< HEAD
        <thead>
       <tr>
         <th>ID</th>
@@ -25,6 +24,7 @@ include('header.php');
         <th>brend</th>
         <th>Rag no. </th>
         <th>Date</th>
+        <th>Action</th>
       </tr>
     </thead>
     <tbody>
@@ -40,9 +40,6 @@ include('header.php');
     </tbody>
   </table>
 </div>
-=======
-     
->>>>>>> 1e692209566ddd49ac467d19fede42b7c8a53c2d
 
  <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

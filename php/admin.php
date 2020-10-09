@@ -36,7 +36,7 @@
         <a class="nav-link" href="history.php">History</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="technicin.php">technician</a>
+        <a class="nav-link" href="technician.php">technician</a>
       </li>  
       <li class="nav-item">
         <a class="nav-link" href="sellreport.php">Sell Report</a>
@@ -91,7 +91,7 @@
 
 <!-- request table start -->
          </div>
-         <div class=" r1 mx-5 mt-5 000">
+         <div class=" r1 mx-5 mt-5 ">
               <p class=" p-2">List of Requester</p> 
          </div>
 

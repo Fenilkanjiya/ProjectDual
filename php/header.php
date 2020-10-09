@@ -20,7 +20,7 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav v2  ">
+    <ul class="navbar-nav">
       <li class="nav-item">
         <a class="nav-link" href="work.php">Work Order</a>
       </li>
