@@ -27,9 +27,9 @@
 				<div class="form-group">
                  <label for="inputState">Category</label>
                     <select id="inputState" class="form-control" name="category">
-                         <option selected>Two wheeler</option>
-                         <option selected>Four wheeler</option>
-                         <option selected>Six wheeler</option>
+                         <option selected>Two-wheeler</option>
+                         <option selected>Four-wheeler</option>
+                         <option selected>Six-wheeler</option>
                     </select>
                 </div>
 				<div class="form-group">

@@ -33,6 +33,9 @@
         <a class="nav-link" href="contact_history.php">User contact</a>
       </li>
       <li class="nav-item">
+        <a class="nav-link" href="history.php">History</a>
+      </li>
+      <li class="nav-item">
         <a class="nav-link" href="technicin.php">technician</a>
       </li>  
       <li class="nav-item">
@@ -90,11 +93,6 @@
          </div>
          <div class=" r1 mx-5 mt-5 000">
               <p class=" p-2">List of Requester</p> 
-
-
-
-
-
          </div>
 
       </div>

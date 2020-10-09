@@ -36,7 +36,7 @@
 				</div>
 				<div class="form-group">
 					<label>Password</label>
-					<input type="password" class="form-control" name="password" />
+					<input type="password" class="form-control" name="u_password" />
 				</div>
 				<div class="form-group">
 					<label>Number</label>
