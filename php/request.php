@@ -1,4 +1,6 @@
-
+<?php
+include('header.php');
+?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -16,7 +18,7 @@
   </head>
   <body>
     <div class="row">
-      <div class="col-sm-4">
+      <div class="col-sm-4" style="margin-top: 5rem!important;">
         <div class="card mt-5 mx-5">
           <div class="card-header">Member Id </div>
             <div class="card-body">
@@ -34,13 +36,13 @@
 
         
    
-   <div class="col-md-6 mt-5 ">
+   <div class="col-md-6 mt-5" style="margin-top: 6rem!important; ">
    <div class="card shadow">
    <div class="card-header"><h3 style="text-align: center;">welcome to service center</h3></div>
    <div class="card-body">
    <div class="container  mt-3">
    <form action="user_conn.php" method="POST">	
-         <h4>Input here....</h4>
+         
          
          <div class="form-group">
            <label for="firstname">Name</label>

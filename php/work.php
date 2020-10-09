@@ -1,3 +1,7 @@
+<?php
+include('header.php');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,9 +19,11 @@
       <tr>
         <th>ID</th>
         <th>Name</th>
-        <th>Subject</th>
-        <th>Email</th>
-        <th>Message</th>
+        <th>categoru</th>
+        <th>model</th>
+        <th>brend</th>
+        <th>Rag no. </th>
+        <th>Date</th>
       </tr>
     </thead>
     <tbody>
