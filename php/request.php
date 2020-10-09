@@ -61,24 +61,15 @@ include('header.php');
           </div>
             <?php } ?>  
         </div>
-
-
-        
-   
-   <div class="col-md-6 mt-5" style="margin-top: 6rem!important; ">
        
   
-
+   <div class="col-md-6 mt-5" style="margin-top: 6rem!important;">
    <div class="card shadow">
    <div class="card-header"><h3 style="text-align: center;">welcome to service center</h3></div>
    <div class="card-body">
    <div class="container  mt-3">
-
-   <form action="user_conn.php" method="POST">	
-         
    <form action="admin_main_history.php" method="POST">	
          <h4>Assign work...</h4>
-
          
          <div class="form-group">
            <label>Request Id</label>

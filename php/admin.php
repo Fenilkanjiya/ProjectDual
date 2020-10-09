@@ -1,3 +1,17 @@
+<?php
+       $conn = mysqli_connect("localhost","root","","service_project") or die("fail");
+
+       // sql delete record
+       if(isset($_REQUEST['delete'])){
+         $sql = "DELETE FROM inputuser WHERE mem_id = {$_REQUEST['mem_id']}";
+         if(mysqli_query($conn, $sql)){
+           echo "record deleted";
+         }
+         else{
+           echo "error";
+         }
+       }
+?>
 
 <!doctype html>
 <html lang="en">
@@ -94,6 +108,50 @@
          <div class=" r1 mx-5 mt-5 ">
               <p class=" p-2">List of Requester</p> 
          </div>
+         <div class="container">
+  
+   <!-- startphp  -->
+   <?php
+    
+      $sql = "SELECT * FROM inputuser";
+      $result = mysqli_query($conn, $sql) or die("query unsucessful");
+
+      if(mysqli_num_rows($result) > 0) {
+   ?>
+ 
+   <table class="table">
+       <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Category</th>
+        <th>Model</th>
+        <th>Brand</th>
+        <th>Date</th>
+        <th>Time</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+    <?php
+      while($row = mysqli_fetch_assoc($result)) {
+    ?>    
+      <tr>
+        <td><?php echo $row['mem_id'];?></td>
+        <td><?php echo $row['user_name'];?></td>
+        <td><?php echo $row['category'];?> </td>
+        <td><?php echo $row['v_model'];?></td>
+        <td><?php echo $row['v_brand'];?></td>
+        <td><?php echo $row['service_date'];?>-</td>
+        <td><?php echo $row['service_time'];?></td>
+        <td><?php echo '<form action="" method="POST"><input type ="hidden" name="mem_id" value=' . $row['mem_id'] . '><input type="submit" class="btn btn-sm btn-danger" name="delete" value="delete"></form>';?></td>
+      </tr>
+      <?php } ?>
+    </tbody>
+  </table>
+  <?php }
+  mysqli_close($conn)
+  ?>
 
       </div>
     <!-- end reuqest table -->
