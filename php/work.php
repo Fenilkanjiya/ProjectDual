@@ -1,3 +1,7 @@
+<?php
+include('header.php');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,7 +15,34 @@
 <body>
 <div class="container">
 <table class="table">
+<<<<<<< HEAD
+       <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>categoru</th>
+        <th>model</th>
+        <th>brend</th>
+        <th>Rag no. </th>
+        <th>Date</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td>1</td>
+        <td>fenil</td>
+        <td>loeo</td>
+        <td>fsdfsdfb</td>
+        <td>s</td>
+      </tr>
+
+    </tbody>
+  </table>
+</div>
+=======
      
+>>>>>>> 1e692209566ddd49ac467d19fede42b7c8a53c2d
 
  <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
