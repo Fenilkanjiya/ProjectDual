@@ -70,16 +70,18 @@
 
 <!-- card start -->
       
+
         <div class="row text-center mx-5">
           <div class="col-sm-4" style="margin-top: 6rem!important;">
             <div class="card  bg-danger mb-3">
                   <div class="card-header">request recived</div>
                     <div class="card-body">
-                      <h4 class="title">43</h4>
+                      <h4 class="title">5</h4>
                       <a class="btn" href="#">view</a>
                     </div>
              </div>
          </div>
+
 
             <div class="col-sm-4" style="margin-top:6rem!important;">
                <div class="card  bg-success mb-3">
