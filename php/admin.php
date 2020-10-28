@@ -31,7 +31,7 @@
     
  <!--navbar start  -->
  <nav class="navbar navbar-expand-sm navbar-light fixed-top" style="background-color: #03DAC6;">
-  <a class="navbar-brand" href="#">ADMIN</a>
+  <a class="navbar-brand" href="admin.php">ADMIN</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
   </button>

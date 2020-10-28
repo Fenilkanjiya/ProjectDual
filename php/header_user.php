@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-sm navbar-light fixed-top" style="background-color: #03DAC6;">
-  <a class="navbar-brand" href="#">Service</a>
+  <a class="navbar-brand" href="#">VSMS</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
   </button>

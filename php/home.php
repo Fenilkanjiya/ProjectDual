@@ -32,12 +32,12 @@ if(isset($_SESSION['is_login'])){
   ?>
 </div>
 <!-- end navbar--> 
-<div>
+<!-- <div>
 <form class="form-inline search_form" action="#">
     <input class="form-control mr-sm-2" type="text" placeholder="Search">
     <button class="btn btn-success" type="submit">Search</button>
   </form>
-</div>
+</div> -->
 
 <!-- Start Header Jumbotron-->
 <header class="jumbotron" style="background-color:#03DAC6; background-size: 100%;">

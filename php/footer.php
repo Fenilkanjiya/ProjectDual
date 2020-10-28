@@ -1,5 +1,5 @@
  <!-- Start Footer-->
- <footer class="container-fluid bg-dark text-white mt-5 fixed-bottom" style="border-top: 3px solid #DC3545;">
+ <footer class="container-fluid bg-dark text-white mt-5" style="border-top: 3px solid #DC3545;">
     
       <!-- Start Footer Container -->
       <div class="row py-3">
