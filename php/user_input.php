@@ -9,7 +9,9 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
-
+<?php
+  include("header_user.php");
+?>
 <div class="container mt-5">
    
   <div class="col-md-6" style="margin:0 auto">
@@ -78,10 +80,14 @@
 		</div>
 
      </div>
- 
+  </div>
 
 </div>
+</div>
 
+<?php
+  include("footer.php");
+?>
 
 
 
