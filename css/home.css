@@ -1,7 +1,6 @@
 /* Make Header Image Responsive */
 
 .back-image {
-    
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -26,7 +25,8 @@
         text-align: center;
     }
 }
-.search_form{
+
+.search_form {
     margin-top: 70px;
     margin-right: 70px;
     margin-bottom: 70px;

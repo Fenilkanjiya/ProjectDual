@@ -3,23 +3,13 @@ require_once 'conn.php';
  
 session_start();
  if($_SESSION['user']){
-  $username = $_SESSION['username'];
+  $username = $_SESSION['user'];
  }else{
    echo "please login";
  }
+ 
  $username = $_SESSION['user'];
- if(isset($_REQUEST['update'])){
-  if($_REQUEST['u_password'] == ""){
-    echo "fill all fields!";
-   }
-   $u_password = $_REQUEST['u_password'];
-   $sql = "UPDATE member SET u_password = '$u_password' WHERE username = '$username'";
-   if($conn->query($sql) == TRUE){
-    echo "update successful";
-   }else{
-    echo "enable to update";
-   }
- }
+
   
 ?>
 <!doctype html>
@@ -32,33 +22,38 @@ session_start();
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <title>service center</title>
+    <title>profile</title>
   </head>
   <body>
-   <?php
-    include("header_user.php");
-   ?>
-   
-   <div class ="container" style="margin-top: 70px;">
-    <div class="row">
-      <div class="col-sm-6">
-
-      <form action="" method="POST">
-  <div class="form-group ">
+  
+  <div class="container mt-5">
+  <div class="col-sm-6"> 
+  <div class="form-group">
+  <form>
+  <div class="form-group">
+    <label for="mem_id">Member ID</label>
+    <input type="text" class="form-control" id="mem_id" name="mem_id" placeholder="mem_id" readonly value="<?php echo "$mem_id"; ?>">
+  </div>
     <label for="username">User name</label>
-    <input type="text" class="form-control" name="username" id="username" value="<?php echo $username; ?>" readonly>
+    <input type="text" class="form-control" id="username" name="username " placeholder="username" value="<?php echo "$username"?>">
   </div>
   <div class="form-group">
-    <label for="exampleInputPassword">Password</label>
-    <input type="password" class="form-control" name="u_password" id="u_password">
+    <label for="firstname">First Name</label>
+    <input type="text" class="form-control" id="firstname" name="firstname" placeholder="firstname">
   </div>
-  <button type="submit" class="btn btn-primary" name="update">Update</button>
-</form>
-      </div> <!-- end col -->
-    </div>  <!-- end row -->
-   </div>  <!-- end container -->
+  <div class="form-group">
+    <label for="lastname">Last Name</label>
+    <input type="text" class="form-control" id="lastname" name="lastname" placeholder="lastname">
+  </div>
+
+
  
-    
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+  </div>
+  </div>
+  
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

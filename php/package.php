@@ -16,7 +16,9 @@
     
   </head>
   <body>
-	
+	<?php
+    include("header_user.php");
+  ?>
   <h2>Packages</h2>
   
     

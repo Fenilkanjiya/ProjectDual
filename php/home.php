@@ -1,12 +1,12 @@
- <!-- <?php
+ <?php
 session_start();
-if(isset($_SESSION['is_login'])){
-  $username = $_SESSION['username'];
+if(isset($_SESSION['user'])){
+  $username = $_SESSION['user'];
 }else{
   echo "<script> location.href='login.php'</script>";
 
 }
-?>  --> 
+?>  
 
 <!doctype html>
 
@@ -40,7 +40,7 @@ if(isset($_SESSION['is_login'])){
 </div> -->
 
 <!-- Start Header Jumbotron-->
-<header class="jumbotron" style="background-color:#03DAC6; background-size: 100%;">
+<header class="jumbotron" style="background-color:#03DAC6; background-size: 100%; margin-top: 88px;">
     <div class="myclass mainHeading">
       <h1 class="text-uppercase text-danger font-weight-bold">Welcome to Service center</h1>
       <p class="font-italic">Customer's Happiness is our Aim</p>
