@@ -11,14 +11,16 @@ session_start();
  if(isset($_REQUEST['update'])){
   if($_REQUEST['u_password'] == ""){
     echo "fill all fields!";
-   }
-   $u_password = $_REQUEST['u_password'];
-   $sql = "UPDATE member SET u_password = '$u_password' WHERE username = '$username'";
-   if($conn->query($sql) == TRUE){
-    echo "update successful";
    }else{
-    echo "enable to update";
+    $u_password = $_REQUEST['u_password'];
+    $sql = "UPDATE member SET u_password = '$u_password' WHERE username = '$username'";
+      if($conn->query($sql) == TRUE){
+        echo "update successful";
+      }else{
+        echo "enable to update";
    }
+   }
+   
  }
   
 ?>
@@ -39,7 +41,7 @@ session_start();
     include("header_user.php");
    ?>
    
-   <div class ="container" style="margin-top: 70px;">
+   <div class ="container" style="margin-top: 20px;">
     <div class="row">
       <div class="col-sm-6">
 

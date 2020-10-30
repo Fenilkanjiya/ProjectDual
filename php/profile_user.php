@@ -1,17 +1,4 @@
-<?php
-require_once 'conn.php';
- 
-session_start();
- if($_SESSION['user']){
-  $username = $_SESSION['user'];
- }else{
-   echo "please login";
- }
- 
- $username = $_SESSION['user'];
 
-  
-?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -32,27 +19,15 @@ session_start();
   <form>
   <div class="form-group">
     <label for="mem_id">Member ID</label>
-    <input type="text" class="form-control" id="mem_id" name="mem_id" placeholder="mem_id" readonly value="<?php echo "$mem_id"; ?>">
+    <input type="text" class="form-control" id="mem_id" name="mem_id" placeholder="mem_id" readonly>
   </div>
     <label for="username">User name</label>
-    <input type="text" class="form-control" id="username" name="username " placeholder="username" value="<?php echo "$username"?>">
+    <input type="text" class="form-control" id="username" name="username " placeholder="username">
   </div>
-  <div class="form-group">
-    <label for="firstname">First Name</label>
-    <input type="text" class="form-control" id="firstname" name="firstname" placeholder="firstname">
-  </div>
-  <div class="form-group">
-    <label for="lastname">Last Name</label>
-    <input type="text" class="form-control" id="lastname" name="lastname" placeholder="lastname">
-  </div>
-
-
  
-  <button type="submit" class="btn btn-primary">Submit</button>
 </form>
   </div>
   </div>
-  
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
