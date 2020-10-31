@@ -1,6 +1,6 @@
  <!-- Start Footer-->
  <footer class="container-fluid bg-dark text-white mt-5" style="border-top: 3px solid #DC3545;">
-    <div class="container">
+    
       <!-- Start Footer Container -->
       <div class="row py-3">
         <!-- Start Footer Row -->
@@ -21,5 +21,5 @@
           <small class="ml-2"><a href="admin_login.php">Admin Login</a></small>
         </div> <!-- End Footer 2nd Column -->
       </div> <!-- End Footer Row -->
-    </div> <!-- End Footer Container -->
+    
   </footer> <!-- End Footer -->

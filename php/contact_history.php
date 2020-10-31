@@ -9,7 +9,9 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-
+<?php
+  include("header.php");
+?>
 <div class="container">
   <h2>Contact History</h2>
   <p>User all Messages in this table</p> 

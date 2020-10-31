@@ -1,19 +1,14 @@
- <!-- <?php
+ <?php
 session_start();
-if(isset($_SESSION['is_login'])){
-  $username = $_SESSION['username'];
+if(isset($_SESSION['user'])){
+  $username = $_SESSION['user'];
 }else{
   echo "<script> location.href='login.php'</script>";
 
 }
-?>  -->
-
-
-
+?>  
 
 <!doctype html>
-
-
 
 <html>
   <head>
@@ -32,6 +27,7 @@ if(isset($_SESSION['is_login'])){
   <body>
 	<div class="cust-container">
   <!--navbar start  -->
+<<<<<<< HEAD
   <nav class="navbar navbar-expand-sm navbar-light fixed-top" style="background-color: #03DAC6;">
   <a class="navbar-brand" href="#">Service</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -58,17 +54,22 @@ if(isset($_SESSION['is_login'])){
   </div>  
   
 </nav>
+=======
+  <?php
+    include("header_user.php");
+  ?>
+>>>>>>> 6a8a74a6e5d1084516f1376ee5b2e6c5ba7028fd
 </div>
-<!-- end navbar-->
-<div>
-<form class="form-inline search_form" action="/action_page.php">
+<!-- end navbar--> 
+<!-- <div>
+<form class="form-inline search_form" action="#">
     <input class="form-control mr-sm-2" type="text" placeholder="Search">
     <button class="btn btn-success" type="submit">Search</button>
   </form>
-</div>
+</div> -->
 
 <!-- Start Header Jumbotron-->
-<header class="jumbotron back-image" style="background-image: url(img/background.jpg);">
+<header class="jumbotron" style="background-color:#03DAC6; background-size: 100%; margin-top: 88px;">
     <div class="myclass mainHeading">
       <h1 class="text-uppercase text-danger font-weight-bold">Welcome to Service center</h1>
       <p class="font-italic">Customer's Happiness is our Aim</p>
@@ -119,6 +120,7 @@ if(isset($_SESSION['is_login'])){
       </div>
 </div>
 </div>
+</div>
 <!-- End contact us -->
 <div class="jumbotron bg-danger">
   <div class="conttainer">
@@ -165,30 +167,10 @@ if(isset($_SESSION['is_login'])){
   </div>
 </div>
  <!-- Start Footer-->
- <footer class="container-fluid bg-dark text-white mt-5" style="border-top: 3px solid #DC3545;">
-    <div class="container">
-      <!-- Start Footer Container -->
-      <div class="row py-3">
-        <!-- Start Footer Row -->
-        <div class="col-md-6">
-          <!-- Start Footer 1st Column -->
-          <span class="pr-2">Follow Us: </span>
-          <a href="#" target="_blank" class="pr-2 fi-color"><i class="fab fa-facebook-f"></i></a>
-          <a href="#" target="_blank" class="pr-2 fi-color"><i class="fab fa-twitter"></i></a>
-          <a href="#" target="_blank" class="pr-2 fi-color"><i class="fab fa-youtube"></i></a>
-          <a href="#" target="_blank" class="pr-2 fi-color"><i class="fab fa-google-plus-g"></i></a>
-          <a href="#" target="_blank" class="pr-2 fi-color"><i class="fas fa-rss"></i></a>
-        </div> <!-- End Footer 1st Column -->
-
-        <div class="col-md-6 text-right">
-          <!-- Start Footer 2nd Column -->
-          <small> Designed by fenil & himanshu &copy; 2020.
-          </small>
-          <small class="ml-2"><a href="admin_login.php">Admin Login</a></small>
-        </div> <!-- End Footer 2nd Column -->
-      </div> <!-- End Footer Row -->
-    </div> <!-- End Footer Container -->
-  </footer> <!-- End Footer -->
+ <?php
+  include("footer.php");
+ ?>
+ <!-- end footer -->
 
 
     <!-- Optional JavaScript -->
