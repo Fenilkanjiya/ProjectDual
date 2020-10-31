@@ -40,7 +40,10 @@ if(isset($_SESSION['is_login'])){
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="../php/home.php">home</a>
+        <a class="nav-link" href="../php/home.php"><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-house-door" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M7.646 1.146a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5H9.5a.5.5 0 0 1-.5-.5v-4H7v4a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6zM2.5 7.707V14H6v-4a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v4h3.5V7.707L8 2.207l-5.5 5.5z"/>
+  <path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+</svg>home</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="../php/user_input.php">Ragistration</a>
@@ -104,19 +107,63 @@ if(isset($_SESSION['is_login'])){
 <!-- start contact us -->
 <div class= "container contact">
   <h2 class= "text-center mb-4">Contact us</h2>
-  <div class="row">
-    <div class ="col-md-8">   
-    <form action="contact_us.php" method="post">
-  <input type="text" class="form-control" name="name" placeholder="Name"><br>
-  <input type="text" class="form-control" name="subject" placeholder="Subject"><br>
-  <input type="email" class="form-control" name="email" placeholder="E-mail"><br>
-  <textarea class="form-control" name="message" placeholder="How can we help you?" style="height:150px;"></textarea><br>
-  <input class="btn btn-primary" type="submit" value="Send" name="submit"><br><br>
- </form>
-
-  </div>
+    <div class="row">
+      <div class ="col-md-8">   
+        <form action="contact_us.php" method="post">
+           <input type="text" class="form-control" name="name" placeholder="Name"><br>
+           <input type="text" class="form-control" name="subject" placeholder="Subject"><br>
+           <input type="email" class="form-control" name="email" placeholder="E-mail"><br>
+           <textarea class="form-control" name="message" placeholder="How can we help you?" style="height:150px;"></textarea><br>
+           <input class="btn btn-primary" type="submit" value="Send" name="submit"><br><br>
+        </form>
+      </div>
+</div>
 </div>
 <!-- End contact us -->
+<div class="jumbotron bg-danger">
+  <div class="conttainer">
+    <h2 class="text-center text-white">Team</h2>
+      <div class="row mt-5">
+          <div class="col-sm-6 col-sx-12">
+            <div class="card shadow-lg mb-3">
+              <div class="card-body text-center">
+                <img src="" alt="" class="imf-fluid" style="border-radius: 100px;">
+                <h4 class="card-title">Himanshu Dabhi</h4> 
+                <p class="card-text">
+                Elon Musk User Profile designed by Kostia Osadchy.
+                 Connect with them on Dribbble; the global community
+                  for designers and creative professionals.
+                  Elon Musk User Profile designed by Kostia Osadchy.
+                 Connect with them on Dribbble.
+                 </p>
+                 </div>
+                 
+
+            </div>
+
+          </div>
+          <div class="col-sm-6 col-sx-12">
+            <div class="card shadow-lg mb-3">
+              <div class="card-body text-center">
+                <img src="" alt="" class="imf-fluid" style="border-radius: 100px;">
+                <h4 class="card-title">Fenil Kanjiya</h4> 
+                <p class="card-text">
+                Elon Musk User Profile designed by Kostia Osadchy.
+                 Connect with them on Dribbble; the global community
+                  for designers and creative professionals.
+                  Elon Musk User Profile designed by Kostia Osadchy.
+                 Connect with them on Dribbble.
+                 </p>
+                 </div>
+                 
+
+            </div>
+
+          </div>
+
+      </div>
+  </div>
+</div>
  <!-- Start Footer-->
  <footer class="container-fluid bg-dark text-white mt-5" style="border-top: 3px solid #DC3545;">
     <div class="container">
