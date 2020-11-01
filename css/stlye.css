@@ -26,7 +26,7 @@
     font-family: paragraphtitle;
 }
 
-<<<<<<< HEAD
+
 
 /* sidebar  */
 
@@ -68,14 +68,7 @@ li a:hover:not(.active) {
     color: white;
 }
 
-h2{
-    margin: auto;
-    padding: 10px;
-    text-align: center;
-    background-color: blue;
-    color: cornsilk;
-    font-size: 50px;
-}
+
 /* 
 div .card-header {
 
@@ -119,14 +112,14 @@ div .card-header {
 
 /* Make Header Image Responsive */
 
-/* .back-image {
+.back-image {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     min-height: 90vh;
     border-radius: 0px;
     margin-top: 74px;
-} */
+}
 
 
 /* Setting Margin for Welcome to OSMS */
@@ -144,3 +137,5 @@ div .card-header {
         text-align: center;
     }
 }
+
+
