@@ -9,17 +9,19 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
     <title>vehicle service</title>
-    <link rel="stylesheet" type="text/css" href="../css/stlye.css" >
+    <link rel="stylesheet" type="text/css" href="../css/package.css" >
     <link href="../css/all.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
+    
     
   </head>
   <body>
 	<?php
     include("header_user.php");
   ?>
-  <h2>Packages</h2>
+  
+  <h2 style="margin-top: 80px;">Packages</h2>
   
     
   
@@ -42,48 +44,151 @@
     <a href="user_input.php" class="btn btn-primary">submit</a>
   </div>
 </div> -->
+<div class="container-fluid">
+  <div class="row  mx-5">
+    <div class="col-sm-3 mt-5 mx-5">
+      <div class="card text-white bg-primary">
+        <div class="card-header text-center">
+            <b>Two wheeler</b>
+        </div>
+        <div class="card-body">
+            <p class="card-text text-center"><b>washing-200</b></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3 mt-5 mx-5">
+      <div class="card text-white bg-primary">
+        <div class="card-header text-center">
+          <b>Two wheeler</b>
+        </div>
+          <div class="card-body">
+              <p class="card-text text-center">washing-500</p>
+          </div>
+      </div>
+    </div>
+        <div class="col-sm-3 mt-5 mx-5">
+          <div class="card text-white bg-primary">
+          
+            <div class="card-header text-center">
+                <b>Two wheeler</b>
+            </div>
 
-<div class="row">
-  <div class="col-sm-3">
-    <div class="card">
-    <div class="card-header">
-  <b>four wheeler</b>
-  </div>
-      <div class="card-body">
+              <div class="card-body">
+                  <p class="card-text text-center">washing-500</p>
+              </div>
+            </div>
+        </div>
+
+        <div class="col-sm-3 mt-5 mx-5">
+        <div class="card text-white bg-success ">
+            <div class="card-header text-center">
+                <b>four wheeler</b>
+            </div>
+
+              <div class="card-body">
+                  <p class="card-text text-center">washing-500</p>
+              </div>
+            </div>
+        </div>
+
+        <div class="col-sm-3 mt-5 mx-5">
+        <div class="card text-white bg-success">
+            <div class="card-header text-center">
+                <b>four wheeler</b>
+            </div>
+
+              <div class="card-body">
+                  <p class="card-text text-center">washing-500</p>
+              </div>
+            </div>
+        </div>
+
+        <div class="col-sm-3 mt-5 mx-5">
+        <div class="card text-white bg-success ">
+            <div class="card-header text-center">
+                <b>four wheeler</b>
+            </div>
+
+              <div class="card-body">
+                  <p class="card-text text-center">washing-500</p>
+              </div>
+            </div>
+        </div>
+
+        <div class="col-sm-3 mt-5 mx-5">
+        <div class="card text-white bg-danger ">
+            <div class="card-header text-center">
+                <b>Six wheeler</b>
+            </div>
+
+              <div class="card-body">
+                  <p class="card-text text-center">washing-500</p>
+              </div>
+            </div>
+        </div>
+
+        <div class="col-sm-3 mt-5 mx-5">
+        <div class="card text-white bg-danger ">
+            <div class="card-header text-center">
+                <b>Six wheeler</b>
+            </div>
+
+              <div class="card-body">
+                  <p class="card-text text-center">washing-500</p>
+              </div>
+            </div>
+        </div>
+
+        <div class="col-sm-3 mt-5 mx-5">
+        <div class="card text-white bg-danger ">
+            <div class="card-header text-center">
+                <b>Six wheeler</b>
+            </div>
+
+              <div class="card-body">
+                  <p class="card-text text-center">washing-500</p>
+              </div>
+            </div>
+        </div>
+<!-- 
+        <div class="col-sm-3 mt-5 mx-5">
+        <div class="card text-white bg-danger ">
+            <div class="card-header text-center">
+                <b>four wheeler</b>
+            </div>
+
+              <div class="card-body">
+                  <p class="card-text text-center">washing-500</p>
+              </div>
+            </div>
+        </div>
+
+        <div class="col-sm-3 mt-5 mx-5">
+        <div class="card text-white bg-danger ">
+            <div class="card-header text-center">
+                <b>four wheeler</b>
+            </div>
+
+              <div class="card-body">
+                  <p class="card-text text-center">washing-500</p>
+              </div>
+            </div>
+        </div>
+
+        <div class="col-sm-3 mt-5 mb- mx-5">
+        <div class="card text-white bg-danger ">
+            <div class="card-header text-center">
+                <b>four wheeler</b>
+            </div>
+
+              <div class="card-body">
+                  <p class="card-text text-center">washing-500</p>
+              </div>
+            </div>
+        </div> -->
         
-        
-        <p class="card-text">washing-200</p>
-        <p class="card-text">washing + shop oil-300</p>
-        <p class="card-text">washing-200</p>
-        <p class="card-text">washing-200</p> 
-        <a href="#" class="btn btn-primary">Select</a>
-      </div>
-    </div>
   </div>
-  <div class="col-sm-3">
-    <div class="card">
-    <div class="card-header">
-  <b>four wheeler</b>
-  </div>
-      <div class="card-body">
-       
-        <p class="card-text">washing-500</p>
-        <a href="#" class="btn btn-primary">Select</a>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-3">
-    <div class="card">
-    <div class="card-header">
-  <b>four wheeler</b>
-  </div>
-      <div class="card-body">
-     
-        <p class="card-text">washing-500</p>
-        <a href="#" class="btn btn-primary">Select</a>
-      </div>
-    </div>
-  </div>
+  
 </div>
  <!-- Start Footer-->
  <footer class="container-fluid bg-dark text-white mt-5 fixed-bottom" style="border-top: 3px solid #DC3545;">

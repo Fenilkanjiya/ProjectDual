@@ -119,14 +119,14 @@ div .card-header {
 
 /* Make Header Image Responsive */
 
-.back-image {
+/* .back-image {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     min-height: 90vh;
     border-radius: 0px;
     margin-top: 74px;
-}
+} */
 
 
 /* Setting Margin for Welcome to OSMS */

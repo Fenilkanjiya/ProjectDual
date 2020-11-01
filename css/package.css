@@ -1,0 +1,16 @@
+body{
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    height: 500px;
+    background-size: cover
+}
+
+h2{
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    background-color: blue;
+    color: cornsilk;
+    font-size: 50px;
+}

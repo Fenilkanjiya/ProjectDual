@@ -24,7 +24,7 @@
 					<form action="login_query.php" method="POST">
 						<div class="form-group">
 							<label for="username">Username:</label>
-							<input type="text" class="form-control " id="email" placeholder="Enter user ID"
+							<input type="text" class="form-control " id="name" placeholder="Enter user ID"
 								name="username">
 						</div>
 						<div class="form-group">
