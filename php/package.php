@@ -150,7 +150,7 @@
               </div>
             </div>
         </div>
-<!-- 
+
         <div class="col-sm-3 mt-5 mx-5">
         <div class="card text-white bg-danger ">
             <div class="card-header text-center">
@@ -162,6 +162,32 @@
               </div>
             </div>
         </div>
+
+        <!-- dummy  -->
+        <div class="col-sm-3 mt-5 mx-5">
+        <div class="card text-white bg-danger ">
+            <div class="card-header text-center">
+                <b>four wheeler</b>
+            </div>
+
+              <div class="card-body">
+                  <p class="card-text text-center">washing-500</p>
+              </div>
+            </div>
+        </div>
+        <div class="col-sm-3 mt-5 mx-5">
+        <div class="card text-white bg-danger ">
+            <div class="card-header text-center">
+                <b>four wheeler</b>
+            </div>
+
+              <div class="card-body">
+                  <p class="card-text text-center">washing-500</p>
+              </div>
+            </div>
+        </div>
+        
+        <!-- end dummy -->
 
         <div class="col-sm-3 mt-5 mx-5">
         <div class="card text-white bg-danger ">
@@ -185,13 +211,13 @@
                   <p class="card-text text-center">washing-500</p>
               </div>
             </div>
-        </div> -->
+        </div>
         
   </div>
   
 </div>
  <!-- Start Footer-->
- <footer class="container-fluid bg-dark text-white mt-5 fixed-bottom" style="border-top: 3px solid #DC3545;">
+ <footer class="container-fluid bg-dark text-white mt-5 " style="border-top: 3px solid #DC3545;">
     
       <!-- Start Footer Container -->
       <div class="row py-3">

@@ -31,7 +31,7 @@
         <a class="nav-link" href="contact_history.php">User contact</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="technicin.php">technician</a>
+        <a class="nav-link" href="technician.php">technician</a>
       </li>  
       <li class="nav-item">
         <a class="nav-link" href="sellreport.php">Sell Report</a>
