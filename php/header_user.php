@@ -9,9 +9,6 @@
         <a class="nav-link" href="../php/home.php">home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="../php/profile_user.php">Profile</a>
-      </li>
-      <li class="nav-item">
         <a class="nav-link" href="../php/user_input.php">Ragistration</a>
       </li>
       <li class="nav-item">

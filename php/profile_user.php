@@ -1,3 +1,13 @@
+<?php
+require_once 'conn.php';
+ 
+session_start();
+ if($_SESSION['user']){
+  $username = $_SESSION['username'];
+ }else{
+   echo "please login";
+ }
+?>
 
 <!doctype html>
 <html lang="en">
@@ -21,8 +31,9 @@
     <label for="mem_id">Member ID</label>
     <input type="text" class="form-control" id="mem_id" name="mem_id" placeholder="mem_id" readonly>
   </div>
+  <div class="form-group ">
     <label for="username">User name</label>
-    <input type="text" class="form-control" id="username" name="username " placeholder="username">
+    <input type="text" class="form-control" name="username" id="username" value="<?php echo $username; ?>" readonly>
   </div>
  
 </form>
