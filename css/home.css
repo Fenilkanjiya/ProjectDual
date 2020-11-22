@@ -32,3 +32,30 @@
     margin-bottom: 70px;
     margin-left: 70px;
 }
+
+.ragibtn:hover{
+    background-color: crimson;
+}
+
+body {
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    /* background-color: #cccccc; */
+    height: 500px;
+    background-size: cover;
+    /* display: ; */
+    background-attachment: fixed;
+}
+
+
+img{
+    height: 100px;
+    margin-bottom: 15px;
+    border-radius: 200px 200px 200px 200px;
+    width: 94px;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+}

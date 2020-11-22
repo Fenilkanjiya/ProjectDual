@@ -1,25 +1,50 @@
- <!-- Start Footer-->
- <footer class="container-fluid bg-dark text-white mt-5" style="border-top: 3px solid #DC3545;">
-    
-      <!-- Start Footer Container -->
-      <div class="row py-3">
-        <!-- Start Footer Row -->
-        <div class="col-md-6">
-          <!-- Start Footer 1st Column -->
-          <span class="pr-2">Follow Us: </span>
-          <a href="#" target="_blank" class="pr-2 fi-color"><i class="fab fa-facebook-f"></i></a>
-          <a href="#" target="_blank" class="pr-2 fi-color"><i class="fab fa-twitter"></i></a>
-          <a href="#" target="_blank" class="pr-2 fi-color"><i class="fab fa-youtube"></i></a>
-          <a href="#" target="_blank" class="pr-2 fi-color"><i class="fab fa-google-plus-g"></i></a>
-          <a href="#" target="_blank" class="pr-2 fi-color"><i class="fas fa-rss"></i></a>
-        </div> <!-- End Footer 1st Column -->
+<!--footer start-->
+<div class="main-footer">
+    <div class="footer-con">
+        <div class="footer-txt">
+            <div class="footer-hedding">
+                <h2><b>Ready to chase your dreams?</b></h2>
 
-        <div class="col-md-6 text-right">
-          <!-- Start Footer 2nd Column -->
-          <small> Designed by fenil & himanshu &copy; 2020.
-          </small>
-          <small class="ml-2"><a href="admin_login.php">Admin Login</a></small>
-        </div> <!-- End Footer 2nd Column -->
-      </div> <!-- End Footer Row -->
-    
-  </footer> <!-- End Footer -->
+
+            </div>
+            <div class="b4">
+                <button>Apply Online  -></button>
+            </div>
+
+
+        </div>
+
+    </div>
+    <div class="f1">
+        <div class="footer1">
+            <div class="img1">
+                <img src="../mywebsite/images/1f8a1065c3d4ff87641d25a8a919f5f2b4d00839.png">
+                
+            </div>
+            <p>
+                Concord Royal Court (3rd floor)<br>
+                Dhanmondi, Dhaka 1209, Bangladesh.<br><br>
+
+                © 2020 Executive Trade International.
+            </p>
+
+
+        </div>
+        <div class="footer2">
+            <ul>About Us</ul>
+            <ul>Responsibilities</ul>
+            <ul>Our Services</ul>
+            <ul>Contact</ul>
+        </div>
+        <div class="footer3">
+            <ul>Disclaimer</ul>
+            <ul>Testimonials</ul>
+            <ul>Privacy Policy</ul>
+            <ul>Terms of Service</ul>
+
+        </div>
+
+    </div>
+
+</div>
+<!--end footer-->

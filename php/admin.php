@@ -24,36 +24,40 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../css/admin.css" >
     <link rel="stylesheet"  href="../css/all.css" >
+    <link rel="stylesheet" type="text/css" href="../css/header_user.css" >
     <title>service center!</title>
   </head>
   <body>
     
     
  <!--navbar start  -->
- <nav class="navbar navbar-expand-sm navbar-light fixed-top" style="background-color: #03DAC6;">
-  <a class="navbar-brand" href="admin.php">ADMIN</a>
+ <nav class="navbar navbar-expand-sm navbar-light fixed-top bg-dark">
+  <a class="navbar-brand text-white" href="#">ADMIN</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav v2  ">
-      <li class="nav-item">
-        <a class="nav-link" href="work.php">User Login</a>
+    <li class="nav-item">
+        <a class="nav-link text-white" href="admin.php">Dashborad</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="request.php">Request</a>
+        <a class="nav-link text-white" href="work.php">User Login</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="contact_history.php">User contact</a>
+        <a class="nav-link text-white" href="request.php">Request</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="history.php">History</a>
+        <a class="nav-link text-white" href="contact_history.php">User contact</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="technician.php">technician</a>
+        <a class="nav-link text-white" href="history.php">History</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="technician.php">technician</a>
       </li>  
       <li class="nav-item">
-        <a class="nav-link" href="home.php">User Home</a>
+        <a class="nav-link text-white" href="home.php">User Home</a>
       </li>  
     </ul>
   </div>  

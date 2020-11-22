@@ -40,21 +40,21 @@ if(isset($_SESSION['user'])){
 </div> -->
 
 <!-- Start Header Jumbotron-->
-<header class="jumbotron" style="background-color:#03DAC6; background-size: 100%; margin-top: 88px;">
+<header class="jumbotron" style="background-color:cyan; background-size: 100%; margin-top: 88px;">
     <div class="myclass mainHeading">
       <h1 class="text-uppercase text-danger font-weight-bold">Welcome to Service center</h1>
       <p class="font-italic">Customer's Happiness is our Aim</p>
-      <a href="user_input.php" class="btn btn-success mr-4">Ragistration</a>
-      <a href="package.php" class="btn btn-danger mr-4">Package</a>
+      <a href="user_input.php" class="btn btn-success mr-4 ragibtn">Ragistration</a>
+      <a href="package.php" class="btn btn-danger mr-4 packbtn">Package</a>
     </div>
   </header> <!-- End Header Jumbotron -->
 
 <!-- start service introduction -->
 <div class="container">
     
-    <div class="jumbotron">
-      <h3 class="text-center">Service Center</h3>
-      <p>
+    <div class="jumbotron bg-dark">
+      <h3 class="text-center" style="color: white;">Service Center</h3>
+      <p style="color: white;">
         Auto services is India’s leading chain of multi-brand car and bike service center
         wide array of services. We focus on enhancing your uses experience by offering world-class
         services.
@@ -78,7 +78,7 @@ if(isset($_SESSION['user'])){
 
 <!-- start contact us -->
 <div class= "container contact">
-  <h2 class= "text-center mb-4">Contact us</h2>
+  <h2 class= "text-center mb-4"style="color: white">Contact us</h2>
     <div class="row">
       <div class ="col-md-8">   
         <form action="contact_us.php" method="post">
@@ -93,21 +93,17 @@ if(isset($_SESSION['user'])){
 </div>
 </div>
 <!-- End contact us -->
-<div class="jumbotron bg-danger">
+<div class="jumbotron" style="background-color:cyan ;">
   <div class="conttainer">
-    <h2 class="text-center text-white">Team</h2>
+    <h2 class="text-center text-dark">Team</h2>
       <div class="row mt-5">
           <div class="col-sm-6 col-sx-12">
-            <div class="card shadow-lg mb-3">
+            <div class="card shadow-lg mb-3" style="border-radius: 20px;">
               <div class="card-body text-center">
-                <img src="" alt="" class="imf-fluid" style="border-radius: 100px;">
+                <img src="../img/himanshu.jpeg" alt="" class="imf-fluid" style="border-radius: 100px;">
                 <h4 class="card-title">Himanshu Dabhi</h4> 
                 <p class="card-text">
-                Elon Musk User Profile designed by Kostia Osadchy.
-                 Connect with them on Dribbble; the global community
-                  for designers and creative professionals.
-                  Elon Musk User Profile designed by Kostia Osadchy.
-                 Connect with them on Dribbble.
+                A graphic designer is a professional within the graphic design and graphic arts industry who assembles together images, typography, or motion graphics to create a piece of design. A graphic designer creates the graphics primarily for published.
                  </p>
                  </div>
                  
@@ -116,16 +112,12 @@ if(isset($_SESSION['user'])){
 
           </div>
           <div class="col-sm-6 col-sx-12">
-            <div class="card shadow-lg mb-3">
+            <div class="card shadow-lg mb-3" style="border-radius: 20px;">
               <div class="card-body text-center">
-                <img src="" alt="" class="imf-fluid" style="border-radius: 100px;">
+                <img src="../img/fenil.jpeg" alt="" class="imf-fluid" style="border-radius: 100px;">
                 <h4 class="card-title">Fenil Kanjiya</h4> 
                 <p class="card-text">
-                Elon Musk User Profile designed by Kostia Osadchy.
-                 Connect with them on Dribbble; the global community
-                  for designers and creative professionals.
-                  Elon Musk User Profile designed by Kostia Osadchy.
-                 Connect with them on Dribbble.
+                A graphic designer is a professional within the graphic design and graphic arts industry who assembles together images, typography, or motion graphics to create a piece of design. A graphic designer creates the graphics primarily for published.
                  </p>
                  </div>
                  
