@@ -38,7 +38,7 @@
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav v2  ">
       <li class="nav-item">
-        <a class="nav-link" href="work.php">Work Order</a>
+        <a class="nav-link" href="work.php">User Login</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="request.php">Request</a>
@@ -53,14 +53,8 @@
         <a class="nav-link" href="technician.php">technician</a>
       </li>  
       <li class="nav-item">
-        <a class="nav-link" href="sellreport.php">Sell Report</a>
+        <a class="nav-link" href="home.php">User Home</a>
       </li>  
-      <li class="nav-item">
-        <a class="nav-link" href="workreport.php">Work Report</a>
-      </li> 
-      <li class="nav-item">
-        <a class="nav-link" href="Requesterchangepass.php">Change Password</a>
-      </li>   
     </ul>
   </div>  
   
@@ -144,7 +138,7 @@
         <td><?php echo $row['category'];?> </td>
         <td><?php echo $row['v_model'];?></td>
         <td><?php echo $row['v_brand'];?></td>
-        <td><?php echo $row['service_date'];?>-</td>
+        <td><?php echo $row['service_date'];?></td>
         <td><?php echo $row['service_time'];?></td>
         <td><?php echo '<form action="" method="POST"><input type ="hidden" name="mem_id" value=' . $row['mem_id'] . '><input type="submit" class="btn btn-sm btn-danger" name="delete" value="delete"></form>';?></td>
       </tr>

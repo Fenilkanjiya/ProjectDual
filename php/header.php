@@ -22,7 +22,7 @@
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="work.php">Work Order</a>
+        <a class="nav-link" href="work.php">User Login</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="request.php">Request</a>
@@ -31,17 +31,14 @@
         <a class="nav-link" href="contact_history.php">User contact</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="technicin.php">technician</a>
+        <a class="nav-link" href="history.php">History</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="technician.php">technician</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="home.php">User Home</a>
       </li>  
-      <li class="nav-item">
-        <a class="nav-link" href="sellreport.php">Sell Report</a>
-      </li>  
-      <li class="nav-item">
-        <a class="nav-link" href="workreport.php">Work Report</a>
-      </li> 
-      <li class="nav-item">
-        <a class="nav-link" href="Requesterchangepass.php">Change Password</a>
-      </li>   
     </ul>
   </div>  
   

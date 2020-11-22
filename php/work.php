@@ -1,7 +1,7 @@
 <?php
-include('header.php');
-?>
 
+include("header.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,34 +13,51 @@ include('header.php');
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
+
 <div class="container">
-<table class="table">
+  <h2>User History</h2>
+  <p>User all information in this table</p> 
+   <!-- startphp  -->
+   <?php
+      $conn = mysqli_connect("localhost","root","","service_project") or die("fail");
+
+      $sql = "SELECT * FROM member";
+      $result = mysqli_query($conn, $sql) or die("query unsucessful");
+
+      if(mysqli_num_rows($result) > 0) {
+   ?>
+ 
+   <table class="table">
        <thead>
       <tr>
         <th>ID</th>
-        <th>Name</th>
-        <th>categoru</th>
-        <th>model</th>
-        <th>brend</th>
-        <th>Rag no. </th>
-        <th>Date</th>
-        <th>Action</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>User Name</th>
+        <th>Password</th>
+        <th>number</th>
       </tr>
     </thead>
     <tbody>
-      
+    <?php
+      while($row = mysqli_fetch_assoc($result)) {
+    ?>    
       <tr>
-        <td>1</td>
-        <td>fenil</td>
-        <td>loeo</td>
-        <td>fsdfsdfb</td>
-        <td>s</td>
+        <td><?php echo $row['mem_id'];?></td>
+        <td><?php echo $row['firstname'];?></td>
+        <td><?php echo $row['lastname'];?> </td>
+        <td><?php echo $row['username'];?></td>
+        <td><?php echo $row['u_password'];?></td>
+        <td><?php echo $row['number'];?></td>
       </tr>
-
+      <?php } ?>
     </tbody>
   </table>
-</div>
+  <?php }
+  mysqli_close($conn)
+  ?>
 
+</div>
  <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

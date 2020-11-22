@@ -1,3 +1,6 @@
+<?php
+  include("header.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,12 +10,22 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <!-- <<style>
+  .custom h2{
+    /* margin-top:50px; */
+    margin-bottom:10px;
+    font-size:50px;
+  }
+  .custom{
+    font-size: 25px;
+    margin-top: 81px;
+  }
+  </style> -->
 </head>
 <body>
-<?php
-  include("header.php");
-?>
-<div class="container">
+
+<div class="container custom">
+
   <h2>Contact History</h2>
   <p>User all Messages in this table</p> 
    <!-- startphp  -->
