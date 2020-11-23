@@ -52,7 +52,7 @@
             <b>Two wheeler</b>
         </div>
         <div class="card-body">
-            <p class="card-text text-center"><b>washing-100</b></p>
+            <p class="card-text text-center"><h5><b>washing-100</b></h5></p>
         </div>
       </div>
     </div>
@@ -62,7 +62,7 @@
           <b>Two wheeler</b>
         </div>
           <div class="card-body">
-              <p class="card-text text-center">washing-500</p>
+              <p class="card-text text-center"><h5><b>washing-500</h5></b></p>
           </div>
       </div>
     </div>
@@ -74,7 +74,7 @@
             </div>
 
               <div class="card-body">
-                  <p class="card-text text-center">Ganral-300</p>
+                  <p class="card-text text-center"><h5><b>Ganral-300</h5></b></p>
               </div>
             </div>
         </div>
@@ -86,7 +86,7 @@
             </div>
 
               <div class="card-body">
-                  <p class="card-text text-center">washing-200</p>
+                  <p class="card-text text-center"><h5><b>washing-200</h5></b></p>
               </div>
             </div>
         </div>
@@ -98,7 +98,7 @@
             </div>
 
               <div class="card-body">
-                  <p class="card-text text-center"><h5><b>washing-500</h5></b><</p>
+                  <p class="card-text text-center"><h5><b>washing-500</h5></p>
               </div>
             </div>
         </div>
