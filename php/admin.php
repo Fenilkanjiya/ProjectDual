@@ -26,6 +26,19 @@
     <link rel="stylesheet"  href="../css/all.css" >
     <link rel="stylesheet" type="text/css" href="../css/header_user.css" >
     <title>Vehicle service center</title>
+       
+    <style>
+     .card{
+       text-align: center;
+       margin-left: 80px;
+       margin-top: 100px;
+     }
+
+    
+
+     
+     </style>
+ 
   </head>
   <body>
     
@@ -70,36 +83,26 @@
       
 
         <div class="row text-center mx-5">
-          <div class="col-sm-4" style="margin-top: 6rem!important;">
-            <div class="card  bg-danger mb-3">
-                  <div class="card-header">request recived</div>
-                    <div class="card-body">
-                      <h4 class="title">5</h4>
-                      <a class="btn" href="#">view</a>
-                    </div>
-             </div>
-         </div>
-
-
-            <div class="col-sm-4" style="margin-top:6rem!important;">
-               <div class="card  bg-success mb-3">
-                  <div class="card-header">Assigned work</div>
-                    <div class="card-body">
-                      <h4 class="title">5</h4>
-                      <a class="btn" href="#">view</a>
-                    </div>
-                </div>
+          <div class="col-sm-4" >
+            <div class="card shadow-lg bg-dark mb-3" style="border-radius: 20px;">
+                <img src="../img//1.jpg" alt="" class="imf-fluid" style="border-radius: 100px;">
             </div>
+          </div>
 
-            <div class="col-sm-4" style="margin-top:6rem!important;">
-                <div class="card  bg-info mb-3">
-                  <div class="card-header">NO of technician</div>
-                    <div class="card-body">
-                      <h4 class="title">5</h4>
-                      <a class="btn" href="#">view</a>
-                    </div>
-                </div>
+
+            <div class="col-sm-4" >
+            <div class="card shadow-lg bg-dark mb-3" style="border-radius: 20px;">
+                <img src="../img//3.jpg" alt="" class="imf-fluid" style="border-radius: 100px;">
             </div>
+          </div>
+           
+
+            <div class="col-sm-4" >
+            <div class="card shadow-lg bg-dark mb-3" style="border-radius: 20px;">
+                <img src="../img//2.jpg" alt="" class="imf-fluid" style="border-radius: 100px;">
+            </div>
+          </div>
+        </div>
 <!-- card end -->
             
 
@@ -121,7 +124,7 @@
  
    <table class="table text-white">
        <thead>
-      <tr>
+      <tr style="background-color: black;">
         <th>ID</th>
         <th>Name</th>
         <th>Category</th>
@@ -132,7 +135,7 @@
         <th>Action</th>
       </tr>
     </thead>
-    <tbody>
+    <tbody style="background-color: red;">
     <?php
       while($row = mysqli_fetch_assoc($result)) {
     ?>    
@@ -144,7 +147,7 @@
         <td><?php echo $row['v_brand'];?></td>
         <td><?php echo $row['service_date'];?></td>
         <td><?php echo $row['service_time'];?></td>
-        <td><?php echo '<form action="" method="POST"><input type ="hidden" name="mem_id" value=' . $row['mem_id'] . '><input type="submit" class="btn btn-sm btn-danger" name="delete" value="delete"></form>';?></td>
+        <td><?php echo '<form action="" method="POST"><input type ="hidden" name="mem_id" value=' . $row['mem_id'] . '><input type="submit" class="btn btn-sm btn-primary" name="delete" value="delete"></form>';?></td>
       </tr>
       <?php } ?>
     </tbody>

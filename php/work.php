@@ -25,6 +25,10 @@ include("header.php");
      color: blanchedalmond;
      text-align:center;
       }
+
+      .tr{
+        background-color: bla;
+      }
   
     </style>
 
@@ -46,7 +50,7 @@ include("header.php");
  
    <table class="table text-white">
        <thead>
-      <tr>
+      <tr class="tr" style="background-color: black;">
         <th>ID</th>
         <th>First Name</th>
         <th>Last Name</th>
@@ -55,7 +59,7 @@ include("header.php");
         <th>number</th>
       </tr>
     </thead>
-    <tbody>
+    <tbody style="background-color: red;">
     <?php
       while($row = mysqli_fetch_assoc($result)) {
     ?>    
