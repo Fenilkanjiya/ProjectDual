@@ -23,26 +23,25 @@ include('header.php');
 			<div class="card shadow">
 				<div class="card-header"> <b>Add New Technician </b></div>
 				<div class="card-body">
-                    <form action="" method="POST">
+                    <form action="technician_add_query.php" method="POST">
                         <div class="form-group">
                         <label for="empName">Name</label>
-                        <input type="text" class="form-control" id="empName" name="empName">
+                        <input type="text" class="form-control" id="empName" name="t_name">
                         </div>
                         <div class="form-group">
                         <label for="empCity">City</label>
-                        <input type="text" class="form-control" id="empCity" name="empCity">
+                        <input type="text" class="form-control" id="empCity" name="t_city">
                         </div>
                         <div class="form-group">
                         <label for="empMobile">Mobile</label>
-                        <input type="text" class="form-control" id="empMobile" name="empMobile" >
+                        <input type="text" class="form-control" id="empMobile" name="t_mobile" >
                         </div>
                         <div class="form-group">
                         <label for="empEmail">Email</label>
-                        <input type="email" class="form-control" id="empEmail" name="empEmail">
+                        <input type="email" class="form-control" id="empEmail" name="t_email">
                         </div>
                         <div class="text-center">
-                        <button type="submit" class="btn btn-danger" id="empsubmit" name="empsubmit">Submit</button>
-                        <a href="technician.php" class="btn btn-secondary">Close</a>
+                        <button type="submit" class="btn btn-danger" id="empsubmit" name="t_submit">Submit</button>
                         </div>
                       
                     </form>

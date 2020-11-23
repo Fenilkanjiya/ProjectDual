@@ -12,15 +12,24 @@ include('header.php');
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     
     <link rel="stylesheet"  href="../css/all.css" >
+    <style>
+      body {
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+      }
+  
+    </style>
     
     
-    
-    <title>service center!</title>
+    <title>Vehicle service center</title>
   </head>
   <body>
     <div class="row">
       <div class="col-sm-4 " style="margin-top: 5rem!important;">
-        <div class="card mt-5 mx-5">
+        <div class="card mt-5 mx-5 small-card">
         <?php
           
            $conn = mysqli_connect("localhost","root","","service_project") or die("fail");

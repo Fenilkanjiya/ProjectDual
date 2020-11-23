@@ -1,10 +1,25 @@
 <?php
+       $conn = mysqli_connect("localhost","root","","service_project") or die("fail");
+
+       // sql delete record
+       if(isset($_REQUEST['delete'])){
+         $sql = "DELETE FROM techinician WHERE t_id = {$_REQUEST['t_id']}";
+         if(mysqli_query($conn, $sql)){
+           echo "record deleted";
+         }
+         else{
+           echo "error";
+         }
+       }
+?>
+
+<?php
 include('header.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>service center</title>
+  <title>Vehicle service center</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -17,96 +32,45 @@ include('header.php');
  <!-- Start Header Jumbotron-->
 <div class="container">
          <div class=" r1 mx-5 mt-5 ">
-              <p class="p-2">List Of Technician</p> 
+              <p class="p-2"><b>List Of Technician</b></p> 
          </div>
-         <table class="table">
+         <?php
+      $conn = mysqli_connect("localhost","root","","service_project") or die("fail");
+
+      $sql = "SELECT * FROM techinician";
+      $result = mysqli_query($conn, $sql) or die("query unsucessful");
+
+      if(mysqli_num_rows($result) > 0) {
+   ?>
+         <table class="table text-white">
        <thead>
       <tr>
         <th>ID</th>
         <th>Name</th>
         <th>Mobile No.</th>
         <th>Email</th>
-        
+        <th>City</th>
         <th>Action</th>
       </tr>
     </thead>
     <tbody>
-      
+    <?php
+      while($row = mysqli_fetch_assoc($result)) {
+    ?>  
       <tr>
-        <td>1</td>
-        <td>fenil</td>
-        <td>7565423845</td>
-        <td>Fenil@gmail.com</td>
-        <td>
-        <button type="submit" class="btn btn-secondary" name="delete" value="Delete"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-trash" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-  <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z"/>
-  <path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4L4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"/>
-</svg></button>
-    </td>
+        <td><?php echo $row['t_id'];?></td>
+        <td><?php echo $row['t_name'];?></td>
+        <td><?php echo $row['t_mobile'];?></td>
+        <td><?php echo $row['t_email'];?></td>
+        <td><?php echo $row['t_city'];?></td>
+        <td><?php echo '<form action="" method="POST"><input type ="hidden" name="t_id" value=' . $row['t_id'] . '><input type="submit" class="btn btn-sm btn-danger" name="delete" value="delete"></form>';?></td>
 </tr>
-<tr>
-        <td>2</td>
-        <td>john</td>
-        <td>8415135445</td>
-        <td>John@gmail.com</td>
-        <td>
-        <button type="submit" class="btn btn-secondary" name="delete" value="Delete"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-trash" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-  <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z"/>
-  <path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4L4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"/>
-</svg></button>
-    </td>
-</tr>
-<tr>
-        <td>3</td>
-        <td>himanshu</td>
-        <td>95654452845</td>
-        <td>himanshu@gmail.com</td>
-        <td>
-        <button type="submit" class="btn btn-secondary" name="delete" value="Delete"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-trash" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-  <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z"/>
-  <path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4L4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"/>
-</svg></button>
-    </td>
-</tr>
-<tr>
-        <td>4</td>
-        <td>parv</td>
-        <td>9954635488</td>
-        <td>parvpatel@gmail.com</td>
-        <td>
-        <button type="submit" class="btn btn-secondary" name="delete" value="Delete"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-trash" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-  <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z"/>
-  <path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4L4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"/>
-</svg></button>
-    </td>
-</tr>
-<tr>
-        <td>5</td>
-        <td>vasu</td>
-        <td>9545588455</td>
-        <td>vasu@gmail.com</td>
-        <td>
-        <button type="submit" class="btn btn-secondary" name="delete" value="Delete"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-trash" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-  <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z"/>
-  <path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4L4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"/>
-</svg></button>
-    </td>
-</tr>
-<tr>
-        <td>6</td>
-        <td>dhruvanshu</td>
-        <td>8855458465</td>
-        <td>dhruvanshu@gmail.com</td>
-        <td>
-        <button type="submit" class="btn btn-secondary" name="delete" value="Delete"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-trash" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-  <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z"/>
-  <path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4L4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"/>
-</svg></button>
-    </td>
-      </tr>
-
-    </tbody>
+<?php } ?>
+   </tbody>
   </table>
+  <?php }
+  mysqli_close($conn)
+  ?>
       </div>
    
     </div>

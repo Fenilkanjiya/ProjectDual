@@ -4,29 +4,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>service center</title>
+  <title>Vehicle service center</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <!-- <<style>
-  .custom h2{
-    /* margin-top:50px; */
-    margin-bottom:10px;
-    font-size:50px;
-  }
-  .custom{
-    font-size: 25px;
-    margin-top: 81px;
-  }
-  </style> -->
+  <style>
+      body {
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+      }
+
+    h2, p{
+      background-color: black;
+     color: blanchedalmond;
+     text-align:center;
+    }
+  
+    </style>
 </head>
 <body>
 
-<div class="container custom">
+<div class="container text-white">
 
-  <h2>Contact History</h2>
+  <h2><b>Contact History</b></h2>
   <p>User all Messages in this table</p> 
    <!-- startphp  -->
    <?php
@@ -38,7 +43,7 @@
       if(mysqli_num_rows($result) > 0) {
    ?>
  
-   <table class="table">
+   <table class="table text-white">
        <thead>
       <tr>
         <th>ID</th>
