@@ -12,11 +12,11 @@ h2 {
     margin: auto;
     padding: 10px;
     text-align: center;
-    background-color: blue;
-    color: cornsilk;
+    background-color: cyan;
+    color: black;
     font-size: 50px;
 }
 
-h5{
+h5 {
     text-align: center;
 }
