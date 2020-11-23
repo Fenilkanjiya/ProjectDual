@@ -38,7 +38,10 @@
         <a class="nav-link text-white" href="history.php">History</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-white" href="technician.php">technician</a>
+        <a class="nav-link text-white" href="technician.php">Technician</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="technician_add.php">Add Technician</a>
       </li>
       <li class="nav-item">
         <a class="nav-link text-white" href="home.php">User Home</a>
