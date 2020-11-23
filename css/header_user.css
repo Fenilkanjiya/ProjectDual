@@ -1,16 +1,19 @@
 a:hover {
-    background-color: burlywood
-  }
-
-  .outer-container{
-    background-color:  rgb(54, 54, 54);;
+    border: 3px solid cyan;
+    border-radius: 5px;
 }
-.main-container{
+
+.outer-container {
+    background-color: rgb(54, 54, 54);
+    ;
+}
+
+.main-container {
     background-color: rgb(54, 54, 54);
     display: flex;
     justify-content: space-between;
 }
-.nav1{
+
+.nav1 {
     margin-right: 30px;
 }
-  
