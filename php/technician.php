@@ -4,7 +4,7 @@ include('header.php');
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>service center</title>
+  <title>Vehicle service center</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -19,7 +19,7 @@ include('header.php');
          <div class=" r1 mx-5 mt-5 ">
               <p class="p-2">List Of Technician</p> 
          </div>
-         <table class="table">
+         <table class="table text-white">
        <thead>
       <tr>
         <th>ID</th>

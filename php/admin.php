@@ -25,7 +25,7 @@
     <link rel="stylesheet" type="text/css" href="../css/admin.css" >
     <link rel="stylesheet"  href="../css/all.css" >
     <link rel="stylesheet" type="text/css" href="../css/header_user.css" >
-    <title>service center!</title>
+    <title>Vehicle service center</title>
   </head>
   <body>
     
@@ -119,7 +119,7 @@
       if(mysqli_num_rows($result) > 0) {
    ?>
  
-   <table class="table">
+   <table class="table text-white">
        <thead>
       <tr>
         <th>ID</th>

@@ -15,7 +15,7 @@ include('header.php');
     
     
     
-    <title>service center!</title>
+    <title>Vehicle service center</title>
   </head>
   <body>
     <div class="row">
