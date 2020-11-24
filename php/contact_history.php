@@ -45,7 +45,7 @@
  
    <table class="table text-white">
        <thead>
-      <tr>
+      <tr style = "background-color:black;">
         <th>ID</th>
         <th>Name</th>
         <th>Subject</th>
@@ -57,7 +57,7 @@
     <?php
       while($row = mysqli_fetch_assoc($result)) {
     ?>    
-      <tr>
+      <tr style = "background-color:red;">
         <td><?php echo $row['contact_id'];?></td>
         <td><?php echo $row['contact_name'];?></td>
         <td><?php echo $row['contact_subject'];?> </td>

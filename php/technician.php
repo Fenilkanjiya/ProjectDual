@@ -44,7 +44,7 @@ include('header.php');
    ?>
          <table class="table text-white">
        <thead>
-      <tr>
+      <tr style = "background-color:black;">
         <th>ID</th>
         <th>Name</th>
         <th>Mobile No.</th>

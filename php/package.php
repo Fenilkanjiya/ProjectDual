@@ -23,27 +23,6 @@
   
   <h2 style="margin-top: 80px;">Packages</h2>
   
-    
-  
-  
-  <!-- <div class="card" style="width: 18rem;">
-  
-  <img class="card-img-top" src="../Project/ProjectDual/img/car-34923_1280.png" alt="Card image cap">
-  <div class="card-body">
-    <h5 class="card-title">Two wheeler</h5>
-    <p class="card-text">washing-200</p>
-    <a href="user_input.php" class="btn btn-primary">submit</a>
-  </div>
-</div><br/>
-
-<div class="card" style="width: 18rem;">
-  <img class="card-img-top" src="" >
-  <div class="card-body">
-    <h5 class="card-title">Two wheeler</h5>
-    <p class="card-text">washing-200</p>
-    <a href="user_input.php" class="btn btn-primary">submit</a>
-  </div>
-</div> -->
 <div class="container-fluid">
   <div class="row  mx-5">
     <div class="col-sm-3 mt-5 mx-5">
@@ -62,7 +41,7 @@
           <b>Two wheeler</b>
         </div>
           <div class="card-body">
-              <p class="card-text text-center"><h5><b>washing-500</h5></b></p>
+              <p class="card-text text-center"><h5><b>wiring-300</h5></b></p>
           </div>
       </div>
     </div>
@@ -74,7 +53,7 @@
             </div>
 
               <div class="card-body">
-                  <p class="card-text text-center"><h5><b>Ganral-300</h5></b></p>
+                  <p class="card-text text-center"><h5><b>Ganral-500</h5></b></p>
               </div>
             </div>
         </div>
@@ -86,7 +65,7 @@
             </div>
 
               <div class="card-body">
-                  <p class="card-text text-center"><h5><b>washing-200</h5></b></p>
+                  <p class="card-text text-center"><h5><b>washing-250</h5></b></p>
               </div>
             </div>
         </div>
@@ -98,7 +77,7 @@
             </div>
 
               <div class="card-body">
-                  <p class="card-text text-center"><h5><b>washing-500</h5></p>
+                  <p class="card-text text-center"><h5><b>wiring-500</h5></p>
               </div>
             </div>
         </div>
@@ -110,7 +89,7 @@
             </div>
 
               <div class="card-body">
-                  <p class="card-text text-center"><h5></b>Ganral-700</h5></b></p>
+                  <p class="card-text text-center"><h5></b>Ganral-750</h5></b></p>
               </div>
             </div>
         </div>
@@ -134,7 +113,7 @@
             </div>
 
               <div class="card-body">
-                  <p class="card-text text-center"><h5><b>washing-500</b></h5></p>
+                  <p class="card-text text-center"><h5><b>wiring-800</b></h5></p>
               </div>
             </div>
         </div>
@@ -146,52 +125,16 @@
             </div>
 
               <div class="card-body">
-                  <p class="card-text text-center"><h5><b>washing-1500</b></h5></p>
+                  <p class="card-text text-center"><h5><b>Ganral-1500</b></h5></p>
               </div>
             </div>
         </div>
-<!-- 
-        <div class="col-sm-3 mt-5 mx-5">
-        <div class="card text-white bg-danger ">
-            <div class="card-header text-center">
-                <b>four wheeler</b>
-            </div>
-
-              <div class="card-body">
-                  <p class="card-text text-center">washing-500</p>
-              </div>
-            </div>
-        </div>
-
-        <div class="col-sm-3 mt-5 mx-5">
-        <div class="card text-white bg-danger ">
-            <div class="card-header text-center">
-                <b>four wheeler</b>
-            </div>
-
-              <div class="card-body">
-                  <p class="card-text text-center">washing-500</p>
-              </div>
-            </div>
-        </div>
-
-        <div class="col-sm-3 mt-5 mb- mx-5">
-        <div class="card text-white bg-danger ">
-            <div class="card-header text-center">
-                <b>four wheeler</b>
-            </div>
-
-              <div class="card-body">
-                  <p class="card-text text-center">washing-500</p>
-              </div>
-            </div>
-        </div> -->
         
   </div>
   
 </div>
  <!-- Start Footer-->
- <footer class="container-fluid bg-dark text-white mt-5 fixed-bottom" style="border-top: 3px solid #DC3545;">
+ <footer class="container-fluid bg-dark text-white mt-5" style="border-top: 3px solid #DC3545;">
     
       <!-- Start Footer Container -->
       <div class="row py-3">

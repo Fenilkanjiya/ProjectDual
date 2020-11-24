@@ -35,6 +35,16 @@ session_start();
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <title>Vehicle service center</title>
+    <style>
+     body {
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+    </style>
+   
   </head>
   <body>
    <?php
@@ -46,11 +56,11 @@ session_start();
       <div class="col-sm-6">
 
       <form action="" method="POST">
-  <div class="form-group ">
+  <div class="form-group text-white">
     <label for="username">User name</label>
     <input type="text" class="form-control" name="username" id="username" value="<?php echo $username; ?>" readonly>
   </div>
-  <div class="form-group">
+  <div class="form-group text-white">
     <label for="exampleInputPassword">Password</label>
     <input type="password" class="form-control" name="u_password" id="u_password">
   </div>
