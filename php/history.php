@@ -43,7 +43,7 @@ include("header.php");
  
    <table class="table text-white">
        <thead>
-      <tr>
+      <tr style = "background-color:black;">
         <th>ID</th>
         <th>Name</th>
         <th>Category</th>
@@ -59,7 +59,7 @@ include("header.php");
     <?php
       while($row = mysqli_fetch_assoc($result)) {
     ?>    
-      <tr>
+      <tr style = "background-color:red;">
         <td><?php echo $row['a_request_id'];?></td>
         <td><?php echo $row['a_name'];?></td>
         <td><?php echo $row['a_category'];?> </td>

@@ -12,11 +12,9 @@
                 $discription = $_POST['discription'];
                 $service_date = $_POST['service_date'];
                 $service_time = $_POST['service_time'];
-                $v_pickup = $_POST['v_pickup'];
-                $v_drop = $_POST['v_drop'];
                 $pickup_address = $_POST['pickup_address'];
 				$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-				$sql = "INSERT INTO `inputuser` VALUES ('', '$user_name', '$category', '$v_model', '$v_brand', '$v_ragi_number', '$discription' ,'$service_date' ,'$service_time', '$v_pickup', '$v_drop', '$pickup_address')";
+				$sql = "INSERT INTO `inputuser` VALUES ('', '$user_name', '$category', '$v_model', '$v_brand', '$v_ragi_number', '$discription' ,'$service_date' ,'$service_time','$pickup_address')";
 				$conn->exec($sql);
 			}catch(PDOException $e){
 				echo $e->getMessage();

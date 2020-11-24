@@ -56,12 +56,7 @@
 					<input type="Time" class="form-control" name="service_time" />
 				</div>
 
-                <div>
-                      Dilevry Type :   
-              <input type="radio" name="v_pickup" <?php if (isset($Dilevry_Type) && $gender=="Pickup") echo "checked";?> value="Picup">Pickup
-            <input type="radio" name="v_drop" <?php if (isset($Dilevry_Type) && $gender=="Drop") echo "checked";?> value="Drop">Drop
-
-          </div><br>
+            <br>
                 <div class="form-group">
                     <label for="inputAddress">Address</label>
                     <input type="text" class="form-control" name="pickup_address" placeholder="Address">
